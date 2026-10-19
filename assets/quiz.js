@@ -269,6 +269,7 @@
       return;
     }
     if (item.result || item.q.type !== "multichoice") return;
+    if (e.key.toLowerCase() === "f") return; // F: pantalla completa (fullscreen.js)
     const pos = LETTERS.indexOf(e.key.toLowerCase());
     const num = Number(e.key) - 1;
     const idx = pos >= 0 ? pos : num >= 0 ? num : -1;

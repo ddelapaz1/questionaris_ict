@@ -61,6 +61,27 @@ header.top {
 .crumb:hover { color: var(--text); }
 .crumb b { color: var(--accent); font-weight: 600; }
 
+.header-end { display: flex; align-items: center; gap: 16px; flex: none; }
+
+.fs-btn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid #ffffff25;
+  background: #ffffff0a;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background .2s, border-color .2s;
+}
+.fs-btn:hover { background: #ffffff18; border-color: #ffffff45; }
+.fs-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.fs-btn svg { width: 22px; height: 22px; }
+.fs-btn[hidden], .fs-btn .fs-off, .fs-btn.is-fs .fs-on { display: none; }
+.fs-btn.is-fs .fs-off { display: block; }
+
 .eyebrow {
   font-size: 13px;
   letter-spacing: .08em;
