@@ -159,13 +159,24 @@
     show([
       progressBar(),
       el("section", { class: "card" },
-        el("p", { class: "eyebrow" }, q.type === "matching" ? "Relaciona" : "Tria la resposta correcta"),
+        el("p", { class: "eyebrow" }, q.markers ? "Relaciona cada casella de la imatge" : q.type === "matching" ? "Relaciona" : "Tria la resposta correcta"),
         el("h2", {}, q.text),
+        figure(q),
         body,
         checked ? feedback(item) : null,
         el("div", { class: "actions" },
           el("span", { class: "hint" }, checked ? "Prem Retorn per continuar" : q.type === "multichoice" ? "Tecles a–e per triar · Retorn per comprovar" : ""),
           checked ? nextBtn : checkBtn))], scroll);
+  }
+
+  // imatge de la pregunta; si en té, les caselles numerades es dibuixen a sobre (en % de la imatge)
+  function figure(q) {
+    if (!q.image) return null;
+    return el("figure", { class: "qimg" },
+      el("div", { class: "frame" },
+        el("img", { src: q.image, alt: "" }),
+        (q.markers || []).map(([x, y], i) =>
+          el("span", { class: "marker", style: `left:${x}%;top:${y}%`, "aria-hidden": "true" }, i + 1))));
   }
 
   function ready(item) {
@@ -180,10 +191,17 @@
       el("p", { class: "verdict" },
         el("span", {}, title, detail),
         el("span", { class: "pts" }, signed(result.points), " punt", Math.abs(result.points) === 1 ? "" : "s")),
+      q.type === "multichoice" && result.status === "ko" ? whyNot(q, item.response, "why") : null,
       q.type === "multichoice" && result.status === "ko"
         ? el("p", { class: "answer" }, "La resposta correcta és: ", el("b", {}, q.options[q.correct]))
         : null,
       q.explanation ? el("p", { class: "exp" }, q.explanation) : null);
+  }
+
+  // justificació de per què l'opció triada no és la correcta (si n'hi ha)
+  function whyNot(q, response, cls) {
+    const why = q.optionFeedback && q.optionFeedback[response];
+    return why ? el("p", { class: cls }, el("b", {}, "Per què no: "), why) : null;
   }
 
   function check() {
@@ -209,7 +227,7 @@
     const mark = Math.max(0, raw) / total * 10;
     const count = (s) => items.filter((it) => it.result.status === s).length;
     const pass = mark >= PASS;
-    const message = mark >= 9 ? "Excel·lent! Domines la normativa ICT."
+    const message = mark >= 9 ? "Excel·lent! Domines el tema."
       : mark >= 7 ? "Molt bé! Repassa les preguntes que has fallat."
       : mark >= PASS ? "Aprovat. Revisa les explicacions de les errades per consolidar-ho."
       : "No arribes al 5. Repassa el tema i torna-ho a provar.";
@@ -242,6 +260,7 @@
       answerInfo = result.status === "ok"
         ? el("p", {}, "La teva resposta: ", el("b", { class: "ok" }, q.options[response]))
         : [el("p", {}, "La teva resposta: ", el("b", { class: "ko" }, q.options[response])),
+           whyNot(q, response, null),
            el("p", {}, "Correcta: ", el("b", { class: "ok" }, q.options[q.correct]))];
     } else {
       answerInfo = el("ul", {}, q.pairs.map(([term, answer], j) =>
@@ -253,7 +272,9 @@
       el("summary", {},
         el("span", { class: "q" }, `${i + 1}. ${q.text}`),
         el("span", { class: "pts" }, signed(result.points))),
-      el("div", { class: "body" }, answerInfo, q.explanation ? el("p", {}, q.explanation) : null));
+      el("div", { class: "body" },
+        q.image ? el("img", { class: "thumb", src: q.image, alt: "" }) : null,
+        answerInfo, q.explanation ? el("p", {}, q.explanation) : null));
   }
 
   // ---------- teclat ----------

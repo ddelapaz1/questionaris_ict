@@ -1,0 +1,371 @@
+[
+  "Una ICT es divideix en tres zones segons a qui pertanyen els elements. La zona exterior (blau) és fora de l'edifici: arquetes, punt d'entrada general i canalització externa, responsabilitat de les operadores. La zona comunitària (rosa) és la part comuna de l'edifici: RITI, RITS, canalització principal i registres secundaris. La zona privada (verd) és l'interior de cada habitatge o local: registre de terminació de xarxa, PAU i preses d'usuari.",
+  {
+    "explicacio": "La canalització principal és el muntant vertical de l'edifici: uneix el RITI i el RITS i, pel camí, passa pels registres secundaris de cada planta. Hi va la xarxa de distribució.",
+    "opcions": [null,
+      "Aquest tram, del punt d'entrada general al RITI, és la canalització d'enllaç inferior.",
+      "Dels registres secundaris als registres de terminació de xarxa hi va la canalització secundària.",
+      "Del registre de terminació de xarxa a les preses hi va la canalització interior d'usuari.",
+      "De la coberta (elements de captació) al RITS hi va la canalització d'enllaç superior."]
+  },
+  {
+    "explicacio": "La canalització d'enllaç porta la xarxa d'alimentació fins als recintes: la inferior va del punt d'entrada general fins al RITI (telefonia i banda ampla) i la superior baixa de la coberta fins al RITS (ràdio i televisió).",
+    "opcions": [null,
+      "Del RITI al RITS passant pels registres secundaris és la canalització principal.",
+      "Dels registres secundaris als registres de terminació de xarxa és la canalització secundària.",
+      "Té els recintes intercanviats: l'enllaç inferior acaba al RITI (part baixa) i el superior al RITS (part alta).",
+      "Del registre de terminació de xarxa a les preses és la canalització interior d'usuari."]
+  },
+  {
+    "explicacio": "La canalització interior d'usuari és dins de l'habitatge: va del registre de terminació de xarxa (on hi ha els PAU) fins als registres de presa de cada estança.",
+    "opcions": [null,
+      "Dels registres secundaris al registre de terminació de xarxa és la canalització secundària, a la zona comunitària.",
+      "La que connecta el RITI i el RITS és la canalització principal.",
+      "De l'arqueta d'entrada al RITI hi ha la canalització externa i la d'enllaç inferior, no la interior d'usuari.",
+      "De les antenes al RITS hi va la canalització d'enllaç superior."]
+  },
+  {
+    "explicacio": "Les xarxes d'alimentació de les operadores de telefonia, fibra i cable entren per la part baixa de l'edifici i acaben al RITI, on hi ha els seus repartidors i el punt d'interconnexió amb la xarxa de l'edifici.",
+    "opcions": [null,
+      "El RITS és a la part alta i allotja els equips de ràdio i televisió terrestre i per satèl·lit, no els repartidors de les operadores.",
+      "Al registre secundari hi ha el punt de distribució de cada planta, no l'entrada de les operadores.",
+      "El registre de terminació de xarxa és a l'habitatge i hi ha els PAU de l'usuari.",
+      "El registre d'enllaç és el punt per on entren els cables a l'edifici, però els repartidors de les operadores no hi són: són al RITI."]
+  },
+  {
+    "explicacio": "El RITI recull els serveis que arriben del carrer per la canalització d'enllaç inferior; per això se situa a la planta baixa o al soterrani, a prop del punt d'entrada general.",
+    "opcions": [null,
+      "A prop de les antenes hi ha el RITS, no el RITI.",
+      "El RITI no es col·loca per igualar distàncies: és on arriben els cables del carrer, a la part baixa.",
+      "El RITI és un recinte de l'interior de l'edifici (zona comunitària), no un element exterior.",
+      "Els senyals de les antenes arriben al RITS, situat a la part superior."]
+  },
+  {
+    "explicacio": "La xarxa interior d'usuari comença al PAU, dins del registre de terminació de xarxa, i acaba a les bases d'accés terminal (preses) de cada estança de l'habitatge.",
+    "opcions": [null,
+      "La xarxa de dispersió va dels registres secundaris fins als PAU; acaba on comença la interior d'usuari.",
+      "La xarxa de distribució va dels recintes (RITI/RITS) fins als registres secundaris de cada planta.",
+      "La xarxa d'alimentació porta els serveis de les operadores fins als recintes RITI i RITS.",
+      "Les xarxes de les operadores són fora de l'edifici; no arriben fins a les preses de l'habitatge."]
+  },
+  {
+    "explicacio": "La xarxa de distribució porta els senyals des del RITI o el RITS fins als punts de distribució de cada planta, i ho fa per la canalització principal.",
+    "opcions": [null,
+      "La xarxa d'alimentació arriba fins als recintes per la canalització externa i la d'enllaç, no per la principal.",
+      "La xarxa interior d'usuari va per la canalització interior de l'habitatge.",
+      "La xarxa de dispersió va per la canalització secundària, des dels registres secundaris fins als habitatges.",
+      "Les xarxes de les operadores són fora de l'edifici i no fan servir la canalització principal."]
+  },
+  {
+    "explicacio": "La xarxa de dispersió connecta els punts de distribució de cada planta (registres secundaris) amb els PAU dels habitatges, que són als registres de terminació de xarxa. Va per la canalització secundària.",
+    "opcions": [null,
+      "La xarxa d'alimentació acaba al RITI o al RITS; no arriba als registres secundaris.",
+      "La xarxa de distribució arriba fins als registres secundaris; a partir d'allà comença la de dispersió.",
+      "La xarxa interior d'usuari comença al registre de terminació de xarxa i va cap a les preses, dins de l'habitatge.",
+      "Les xarxes de les operadores són fora de l'edifici."]
+  },
+  {
+    "explicacio": "La zona exterior és la part de la ICT que queda fora de l'edifici: l'arqueta d'entrada i la canalització externa, que porta els cables de les operadores fins al punt d'entrada general.",
+    "opcions": [null,
+      "El RITI i la canalització d'enllaç ja són dins de l'edifici: pertanyen a la zona comunitària.",
+      "Els registres secundaris i la canalització principal són a la zona comunitària.",
+      "El registre de terminació de xarxa i la canalització interior d'usuari són a la zona privada.",
+      "El RITS i la canalització d'enllaç superior pertanyen a la zona comunitària."]
+  },
+  {
+    "explicacio": "La xarxa de parells trenats sempre es distribueix en estrella: cada habitatge té el seu cable des del RITI fins al registre de terminació de xarxa, sense cap element actiu ni de segregació als registres secundaris.",
+    "opcions": [null,
+      "No s'hi posen switchs als registres secundaris: la xarxa de parells trenats no té topologia en arbre-branca.",
+      "La fibra òptica és una xarxa diferent; no és una manera alternativa de distribuir els parells trenats.",
+      "La topologia en anell no s'utilitza en la xarxa de parells trenats d'una ICT.",
+      "Els patch panels de parells trenats són al RITI, no als registres secundaris, i la topologia en bus no s'utilitza."]
+  },
+  {
+    "explicacio": "En la distribució en estrella de fibra òptica, cada habitatge rep un cable propi de dues fibres que va sense interrupcions del RITI al registre de terminació de xarxa. Per això els registres secundaris només fan de pas.",
+    "opcions": [null,
+      "Les caixes de segregació són pròpies de la distribució en arbre-branca, no de l'estrella.",
+      "Els repartidors Krone són de parells telefònics, no de fibra òptica.",
+      "La xarxa de fibra de la ICT és passiva: no porta switchs als registres secundaris.",
+      "La normativa sí que permet distribuir la fibra en estrella."]
+  },
+  {
+    "explicacio": "Són regletes repartidores de parells de telefonia (tipus Krone): blocs on es connecten els parells de coure amb una eina d'inserció.",
+    "opcions": [null,
+      "Un patch panel de parells trenats té connectors RJ45 femella, no regletes.",
+      "Una caixa de segregació de fibra és una caixa tancada amb safates d'empalmament i adaptadors òptics.",
+      "Els derivadors coaxials tenen connectors F roscats, no regletes.",
+      "Un multiplexor passiu és una caixa petita amb preses RJ45 que és al registre de terminació de xarxa."]
+  },
+  {
+    "explicacio": "És un derivador de banda ampla coaxial (CATV): deixa passar el senyal cap avall i n'extreu una part cap als habitatges de la planta. Es col·loca als registres secundaris.",
+    "opcions": [null,
+      "El PAU coaxial és al registre de terminació de xarxa i no té sortides de derivació cap a altres habitatges.",
+      "Els elements de parells trenats tenen connectors RJ45, no connectors F coaxials.",
+      "Els elements de fibra òptica tenen adaptadors òptics (SC/APC), no connectors F coaxials.",
+      "La telefonia no fa servir derivadors coaxials."]
+  },
+  {
+    "explicacio": "És un multiplexor passiu: és al registre de terminació de xarxa i reparteix una línia telefònica cap a diverses preses RJ45 de l'habitatge.",
+    "opcions": [null,
+      "Un switch és un equip actiu (porta alimentació) i a la ICT no se n'instal·la cap al registre secundari.",
+      "El router és un equip actiu de l'operadora, no un element passiu que reparteix la línia telefònica.",
+      "L'ONT converteix el senyal òptic de la fibra en ethernet, no la línia telefònica en coaxial.",
+      "Una presa d'usuari és un sol punt de connexió de la paret, no un repartidor amb diverses sortides."]
+  },
+  {
+    "explicacio": "El patch panel òptic del RITI fa de punt d'interconnexió: d'una banda hi arriben les fibres de les operadores i de l'altra comença la xarxa de fibra de l'edifici cap als habitatges.",
+    "opcions": [null,
+      "El patch panel és al RITI i hi és sempre, sigui quina sigui la topologia de distribució.",
+      "És un element passiu: connecta fibres, però no amplifica el senyal.",
+      "La segregació de fibres als registres secundaris la fan les caixes de segregació, no el patch panel.",
+      "A l'entrada de cada habitatge hi ha el PAU, no un patch panel."]
+  },
+  {
+    "explicacio": "La normativa ICT recomana connectors SC/APC per a la fibra òptica: format SC (quadrat, d'encaix) i poliment APC (en angle), que s'identifica pel color verd.",
+    "opcions": [null,
+      "LC és un connector més petit que la normativa no fa servir, i el poliment PC (de color blau) no és el recomanat.",
+      "El connector ST és de tipus baioneta i no és el que fixa la normativa ICT.",
+      "Ni el format ST ni el poliment PC són els que recomana la normativa.",
+      "El poliment APC és correcte, però el format recomanat és SC, no LC."]
+  },
+  {
+    "explicacio": "El patch panel coaxial al RITI només cal quan la xarxa CATV es distribueix en estrella (un cable per habitatge), cosa que es pot fer en edificis de fins a 20 PAU. En edificis més grans es fa en arbre-branca amb derivadors.",
+    "opcions": [null,
+      "La distribució en estrella es fa en edificis petits, de fins a 20 PAU, no de més de 20.",
+      "Està permès: en distribució en estrella, el patch panel coaxial és precisament al RITI.",
+      "En arbre-branca no cal patch panel coaxial: el senyal es reparteix amb derivadors a cada planta.",
+      "En arbre-branca no cal patch panel coaxial, i aquesta topologia és la dels edificis de més de 20 PAU."]
+  },
+  {
+    "explicacio": "És un patch panel de parells trenats (connectors RJ45). Es troba al RITI, on cada port correspon al cable que va en estrella fins a un habitatge.",
+    "opcions": [null,
+      "Els parells trenats es distribueixen en estrella des del RITI; als registres secundaris no hi ha patch panels.",
+      "Un patch panel de fibra òptica té adaptadors òptics (SC/APC), no connectors RJ45.",
+      "Un patch panel coaxial té connectors F, no RJ45.",
+      "Té connectors RJ45, de manera que no és de fibra; a més, aquest element no és als registres secundaris."]
+  },
+  {
+    "explicacio": "És una caixa de segregació de fibra òptica: s'instal·la als registres secundaris quan la fibra es distribueix en arbre-branca, i separa les fibres que van cap a cada habitatge de la planta.",
+    "opcions": [null,
+      "Al registre de terminació de xarxa hi ha el PAU òptic, no una caixa de segregació.",
+      "Al RITI hi ha el patch panel òptic i les caixes terminals de les operadores, no les caixes de segregació.",
+      "Té safates d'empalmament i adaptadors de fibra; no és un element de parells telefònics.",
+      "No és de parells telefònics, i al RITI hi ha els repartidors, no aquest element."]
+  },
+  {
+    "explicacio": "L'ONT (terminal de xarxa òptica) és a l'habitatge i converteix el senyal òptic de la fibra en senyal elèctric ethernet per al router i els equips.",
+    "opcions": [null,
+      "Les fibres es reparteixen entre habitatges al RITI o als registres secundaris; l'ONT ja és a l'habitatge.",
+      "L'ONT no amplifica el senyal òptic: el converteix en senyal elèctric.",
+      "La televisió per cable va per coaxial; l'ONT treballa amb el senyal de la fibra.",
+      "Repartir una línia de veu entre diverses preses ho fa el multiplexor passiu, no l'ONT."]
+  },
+  {
+    "explicacio": "En la ICT vigent, les preses de parells trenats són RJ45 i serveixen tant per a telefonia com per a dades. Les preses RJ11 eren de la normativa antiga i ja no s'hi fan servir.",
+    "opcions": [null,
+      "Els telèfons es connecten a preses RJ45, que també accepten la clavilla RJ11 del telèfon.",
+      "La televisió per cable fa servir preses coaxials, no preses RJ.",
+      "Les dades fan servir preses RJ45, no RJ11.",
+      "L'ONT es connecta a la fibra amb un connector òptic, i el router a preses RJ45."]
+  },
+  {
+    "explicacio": "És una presa RJ45 femella doble. Cada connector pot donar veu o dades, segons a quin equip estigui connectat el seu cable al registre de terminació de xarxa.",
+    "opcions": [null,
+      "No és exclusiva de telefonia: cada RJ45 pot ser de veu o de dades.",
+      "Les preses RJ45 també serveixen per a veu; les RJ11 ja no es fan servir a la ICT.",
+      "Una presa de fibra té adaptadors òptics, no connectors RJ45.",
+      "Les preses de televisió són coaxials, no RJ45."]
+  },
+  {
+    "explicacio": "Totes les preses RJ45 són iguals. El que decideix el servei és on es connecta el seu cable al registre de terminació de xarxa: al multiplexor passiu dona veu (telefonia) i al router dona dades.",
+    "opcions": [null,
+      "Està al revés: el multiplexor passiu reparteix la línia de veu i el router dona les dades.",
+      "Al registre de terminació de xarxa la veu no surt d'un switch, sinó del multiplexor passiu.",
+      "Al registre de terminació de xarxa la veu no surt d'un switch, i el router dona dades, no veu.",
+      "La normativa no fixa el servei de cada presa segons l'estança: depèn de la connexió al registre de terminació de xarxa."]
+  },
+  {
+    "explicacio": "Les caixes terminals òptiques (CTO) del RITI són de les operadores: hi acaben les seves fibres, que després s'interconnecten amb la xarxa de fibra de l'edifici.",
+    "opcions": [null,
+      "Els repartidors de fibra de l'edifici són el patch panel òptic de la ICT, no la CTO de l'operadora.",
+      "La CTO és un element de fibra òptica, no de parells telefònics.",
+      "La CTO és un element de fibra òptica, no coaxial.",
+      "La CTO és un element de fibra òptica, no de parells trenats."]
+  },
+  {
+    "explicacio": "La presa no s'ha de canviar: les preses RJ45 serveixen per a veu i per a dades. N'hi ha prou de passar el seu cable, al registre de terminació de xarxa, del multiplexor passiu (veu) a una sortida LAN del router (dades).",
+    "opcions": [null,
+      "No cal fibra fins a la presa: n'hi ha prou de connectar-la al router per tenir dades.",
+      "Normalment una connexió per cable és més estable i ràpida que el wifi.",
+      "Les preses RJ45 simples també poden donar dades; el servei depèn de la connexió al registre de terminació de xarxa.",
+      "No cal cap línia nova: la línia de dades ja arriba al router, dins del registre de terminació de xarxa."]
+  },
+  {
+    "explicacio": "El RITM és un recinte modular prefabricat que pot substituir els recintes construïts a l'obra. Pot ser inferior (RITMI), superior (RITMS) o únic (RITMU).",
+    "opcions": [null,
+      "No existeix cap recinte obligatori a les plantes intermèdies; a cada planta hi ha registres secundaris.",
+      "Els equips de les operadores mòbils no formen part dels recintes de la ICT.",
+      "El RITM és un recinte, no un registre secundari.",
+      "El recinte que acumula les funcions del RITI i del RITS és el RITU (recinte únic)."]
+  },
+  {
+    "explicacio": "El RITS és a la part alta de l'edifici i allotja els equips de capçalera per a la ràdio i la televisió terrestre i per satèl·lit. També reserva espai per a serveis futurs.",
+    "opcions": [null,
+      "Els repartidors de les operadores de telefonia i fibra són al RITI.",
+      "El punt d'entrada general és a la part baixa, on arriben els cables del carrer.",
+      "Els PAU són dins de cada habitatge, al registre de terminació de xarxa.",
+      "El RITS no substitueix el RITI: tots dos tenen funcions diferents. El recinte únic és el RITU."]
+  },
+  {
+    "explicacio": "El registre d'enllaç s'instal·la al punt d'entrada general de l'immoble: és per on entren a l'edifici les xarxes d'alimentació de les operadores, des de la canalització externa.",
+    "opcions": [null,
+      "El registre que és al RITI amb els equips de les operadores és el registre principal.",
+      "El registre que uneix la canalització principal amb les secundàries a cada planta és el registre secundari.",
+      "El registre que hi ha a l'habitatge amb els PAU és el registre de terminació de xarxa.",
+      "Els registres que es posen als canvis de direcció són els registres de pas."]
+  },
+  {
+    "explicacio": "Els registres de pas són caixes intermèdies que faciliten l'estesa dels cables quan la canalització canvia de direcció o quan el tram és massa llarg.",
+    "opcions": [null,
+      "Els punts de distribució de cada planta són als registres secundaris.",
+      "El límit entre la xarxa comunitària i la interior d'usuari és el PAU, al registre de terminació de xarxa.",
+      "Les BAT s'allotgen als registres de presa.",
+      "Els cables de les operadores entren per la canalització externa i la d'enllaç; no són registres de pas."]
+  },
+  {
+    "explicacio": "Els registres de presa són les caixes encastades a la paret de cada estança on es munten les bases d'accés terminal (BAT), on l'usuari connecta els seus equips.",
+    "opcions": [null,
+      "Els PAU són al registre de terminació de xarxa, no als registres de presa.",
+      "Els punts de distribució són als registres secundaris de cada planta.",
+      "Els registres de presa no allotgen amplificadors.",
+      "Els derivadors són a la zona comunitària (registres secundaris), no als registres de presa."]
+  },
+  {
+    "explicacio": "El punt d'interconnexió és on s'uneixen les xarxes d'alimentació de les operadores amb la xarxa de distribució de l'edifici. És al RITI.",
+    "opcions": [null,
+      "La unió entre la xarxa de distribució i la de dispersió és el punt de distribució, als registres secundaris.",
+      "La unió entre la xarxa de dispersió i la interior d'usuari és el PAU, al registre de terminació de xarxa.",
+      "Els elements de captació formen part de la xarxa d'alimentació, que acaba al RITS; el punt d'interconnexió és al RITI.",
+      "A l'arqueta d'entrada no hi ha cap punt d'interconnexió de xarxes."]
+  },
+  {
+    "explicacio": "El punt de distribució connecta la xarxa de distribució amb la de dispersió i es troba als registres secundaris de cada planta.",
+    "opcions": [null,
+      "Al RITI hi ha el punt d'interconnexió, no el de distribució.",
+      "Al registre de terminació de xarxa hi ha el PAU.",
+      "El RITS és la capçalera de ràdio i televisió, no el punt de distribució de cada planta.",
+      "L'arqueta d'entrada és a la zona exterior; no hi ha cap punt de distribució."]
+  },
+  {
+    "explicacio": "El PAU (punt d'accés a l'usuari) és on acaba la xarxa de dispersió i comença la xarxa interior d'usuari. També marca el límit de responsabilitats entre la part comunitària i la privada.",
+    "opcions": [null,
+      "El punt de distribució separa la xarxa de distribució de la de dispersió, una etapa abans.",
+      "El punt d'interconnexió és la unió de les xarxes de les operadores amb la de distribució, al RITI.",
+      "La BAT és el final de la xarxa interior d'usuari, on es connecten els equips.",
+      "El registre secundari allotja el punt de distribució, a cada planta."]
+  },
+  {
+    "explicacio": "La zona comunitària és d'ús comú per a tots els veïns (recintes, canalitzacions principals i secundàries, antenes), i per això en té la responsabilitat la comunitat de propietaris.",
+    "opcions": [null,
+      "Les operadores són responsables de la zona exterior.",
+      "El propietari de cada habitatge és responsable de la zona privada.",
+      "L'ajuntament no és responsable de cap zona de la ICT d'un edifici.",
+      "L'empresa instal·ladora construeix la ICT, però no en té la responsabilitat durant tota la vida de l'edifici."]
+  },
+  {
+    "explicacio": "La canalització d'enllaç superior va de la coberta al RITS i hi passen els cables dels serveis de radiodifusió: ràdio i televisió terrestre i per satèl·lit.",
+    "opcions": [null,
+      "La telefonia i la fibra entren per la canalització d'enllaç inferior, cap al RITI.",
+      "La televisió per cable de les operadores entra per l'enllaç inferior, cap al RITI.",
+      "Hi ha dues entrades: la inferior (operadores, cap al RITI) i la superior (radiodifusió, cap al RITS).",
+      "És una canalització de telecomunicacions; hi passen els cables de ràdio i televisió, no només els de terra."]
+  },
+  {
+    "explicacio": "La canalització interior d'usuari té una configuració en estrella: un tub independent per a cada registre de presa, des del registre de terminació de xarxa.",
+    "opcions": [null,
+      "En arbre-branca, un problema en un tram afectaria totes les preses que hi ha darrere; la normativa demana estrella.",
+      "La configuració en anell no s'utilitza a la canalització interior d'usuari.",
+      "No és un únic tub amb derivacions: cada presa té el seu tub propi.",
+      "La configuració està definida per la normativa: és en estrella."]
+  },
+  {
+    "explicacio": "Segons els apunts, la xarxa d'alimentació porta els senyals des de l'origen fins a l'edifici. A la part alta inclou les antenes i la canalització d'enllaç superior fins al RITS; a la part baixa, la canalització exterior i la d'enllaç inferior fins al RITI.",
+    "opcions": [null,
+      "La xarxa de distribució comença als recintes (RITI/RITS) i baixa per la canalització principal.",
+      "La xarxa de dispersió va dels registres secundaris als habitatges.",
+      "La xarxa interior d'usuari és dins de l'habitatge.",
+      "Les antenes formen part de la xarxa d'alimentació per als serveis de ràdio i televisió."]
+  },
+  {
+    "explicacio": "L'amplificador de capçalera és al RITS, on es processen i s'amplifiquen els senyals de ràdio i televisió abans de distribuir-los a tot l'edifici.",
+    "opcions": [null,
+      "Al pal de l'antena hi va l'amplificador de pal, que és un element diferent.",
+      "El RITI és per als serveis de les operadores; la capçalera de ràdio i televisió és al RITS.",
+      "Als registres secundaris hi ha derivadors, no la capçalera.",
+      "Al registre de terminació de xarxa hi ha els PAU, no la capçalera."]
+  },
+  {
+    "explicacio": "El repartidor divideix el senyal en parts iguals entre totes les sortides. El derivador n'extreu només una part cap a una planta o habitatge i deixa passar la resta cap als derivadors següents.",
+    "opcions": [null,
+      "Està al revés: qui divideix en parts iguals és el repartidor, i qui extreu una part és el derivador.",
+      "Cap dels dos amplifica el senyal: tots dos són passius i l'atenuen.",
+      "Tots dos són elements de la xarxa coaxial (ràdio, televisió i CATV), no de parells ni de fibra.",
+      "Tenen funcions diferents: un reparteix a parts iguals i l'altre deriva una part del senyal."]
+  },
+  {
+    "explicacio": "El mesclador combina senyals de diferents orígens (TDT, satèl·lit, FM) en un sol cable perquè es puguin distribuir junts per l'edifici.",
+    "opcions": [null,
+      "Dividir el senyal en parts iguals és la funció del repartidor.",
+      "Convertir vídeo i àudio en canals de radiofreqüència és la funció del modulador.",
+      "Augmentar el nivell del senyal és la funció de l'amplificador.",
+      "Filtrar i equalitzar els senyals és la funció del processador de senyal."]
+  },
+  {
+    "explicacio": "La ràdio digital es rep amb una antena DAB (Digital Audio Broadcasting).",
+    "opcions": [null,
+      "L'antena UHF es fa servir per a la televisió digital terrestre (TDT).",
+      "L'antena FM rep la ràdio analògica en freqüència modulada.",
+      "L'antena parabòlica rep els senyals de satèl·lit.",
+      "LTE és telefonia mòbil i no forma part de la captació de ràdio i televisió de la ICT."]
+  },
+  {
+    "explicacio": "És l'arqueta d'entrada, una tapa al carrer davant de l'edifici (fixa't en la inscripció «ICT»). Pertany a la zona exterior: d'aquí surt la canalització externa cap al punt d'entrada general.",
+    "opcions": [null,
+      "És l'arqueta d'entrada, però és fora de l'edifici: pertany a la zona exterior, no a la comunitària.",
+      "El registre d'enllaç és a la façana o dins de l'edifici, al punt d'entrada general; no és una tapa a la vorera.",
+      "Els registres secundaris són dins de l'edifici, a cada planta.",
+      "El punt d'entrada general no és a la zona privada, i aquest element és l'arqueta d'entrada."]
+  },
+  {
+    "explicacio": "A dalt hi ha un patch panel coaxial (CATV) amb connectors F; a l'esquerra, un patch panel RJ45 de parells trenats; i a la dreta, una caixa terminal òptica (CTO) de fibra, amb els adaptadors verds SC/APC.",
+    "opcions": [null,
+      "Els repartidors de parells telefònics són regletes, no connectors RJ45 o F; i la caixa de la dreta és una CTO, no una caixa de segregació.",
+      "No hi ha cap switch (equip actiu); els PAU no són al RITI, sinó a l'habitatge.",
+      "L'amplificador de capçalera és al RITS; el panell de dalt té connectors F d'un patch panel coaxial.",
+      "Només un dels panells és RJ45: el de dalt és coaxial (connectors F). La caixa de la dreta és una CTO de l'operadora."]
+  },
+  {
+    "explicacio": "És una BAT de ràdio i televisió terrestre (TV/R) i de satèl·lit (SAT). Aquests serveis es capten a la coberta i es processen a la capçalera del RITS, que els distribueix cap als habitatges.",
+    "opcions": [null,
+      "Al RITI arriben els serveis de les operadores (telefonia, fibra, cable), no la ràdio i la televisió de les antenes.",
+      "L'amplificador de capçalera és al RITS; al registre secundari només hi ha la derivació cap als habitatges.",
+      "Pel registre d'enllaç entren els serveis de les operadores, no els de les antenes.",
+      "El senyal de l'antena es processa i s'amplifica a la capçalera del RITS abans d'arribar a les preses."]
+  },
+  {
+    "explicacio": "És una presa d'usuari òptica (BAT de fibra): una presa de paret amb adaptadors SC/APC (verds) i l'avís de radiació làser.",
+    "opcions": [null,
+      "El PAU òptic és al registre de terminació de xarxa, no és una presa de paret d'una estança.",
+      "Una presa RJ45 té connectors de coure; aquests són adaptadors òptics.",
+      "La CTO és una caixa de l'operadora que és al RITI, no un mecanisme de paret.",
+      "Les preses de televisió són coaxials, no òptiques."]
+  },
+  {
+    "explicacio": "És un registre de terminació de xarxa (RTR): l'armari de l'habitatge on hi ha els PAU (fibra, coaxial i parells), el router, l'ONT i una presa de corrent per alimentar-los.",
+    "opcions": [null,
+      "El RITI és un recinte comunitari amb repartidors i patch panels de tot l'edifici, no un armari d'un habitatge amb router.",
+      "El RITS té els equips de capçalera de ràdio i televisió, no un router ni un ONT.",
+      "Un registre secundari no té equips actius ni presa de corrent; hi ha derivadors i caixes de segregació.",
+      "Un registre de presa és una caixa petita encastada amb una sola presa d'usuari."]
+  }
+]
