@@ -1,0 +1,2263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- 5. Antenes · banc de preguntes. Test: 5 opcions, error = -25 %. Basat en 'Apunts - antenes.pdf' -->
+  <question type="category">
+    <category><text>$course$/top/Antenes/1 Conceptes i paràmetres</text></category>
+  </question>
+  <question type="multichoice">
+    <name><text>P01 Funció d'una antena</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Una antena és un dispositiu que...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[transforma les ones guiades per una línia en ones que es propaguen per l'espai, i a l'inrevés]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. En recepció capta l'energia de l'ona i la transfereix al cable.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[amplifica el senyal rebut i el filtra abans d'enviar-lo pel coaxial cap a la capçalera de l'edifici]]></text>
+      <feedback format="html"><text><![CDATA[Una antena passiva no amplifica; el filtratge es fa a la capçalera.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[converteix el senyal analògic en digital perquè el puguin descodificar els receptors de cada habitatge]]></text>
+      <feedback format="html"><text><![CDATA[Aquesta funció no és de l'antena.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[genera el senyal de radiofreqüència que després s'envia per la línia de transmissió]]></text>
+      <feedback format="html"><text><![CDATA[En una ICT les antenes només reben; no generen senyal.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[adapta la impedància del cable coaxial a la del receptor de televisió de cada habitatge de l'edifici]]></text>
+      <feedback format="html"><text><![CDATA[L'adaptació d'impedàncies la fa el balun, no és la funció de l'antena.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P02 Antenes receptores en ICT</text></name>
+    <questiontext format="html"><text><![CDATA[<p>En una ICT, com funcionen les antenes del sistema de radiodifusió?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Només com a antenes receptores]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. No han d'enviar cap senyal en sentit ascendent.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Com a emissores i receptores alhora]]></text>
+      <feedback format="html"><text><![CDATA[No emeten cap senyal.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només com a emissores cap als repetidors terrestres]]></text>
+      <feedback format="html"><text><![CDATA[Al contrari: només reben.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Com a receptores, però també envien el canal de retorn de la TDT interactiva]]></text>
+      <feedback format="html"><text><![CDATA[No hi ha cap senyal en sentit ascendent.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Com a repetidores del senyal per als edificis veïns]]></text>
+      <feedback format="html"><text><![CDATA[Les antenes d'una ICT només donen servei al propi edifici.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P03 Fora de la freqüència de treball</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què passa quan una antena treballa fora de la seva banda de freqüències?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Empitjora l'adaptació d'impedàncies i baixa el guany]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. L'antena està optimitzada per a una banda concreta.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Augmenta el guany perquè capta més canals alhora]]></text>
+      <feedback format="html"><text><![CDATA[Fora de la seva banda el rendiment disminueix.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només canvia la polarització del senyal rebut]]></text>
+      <feedback format="html"><text><![CDATA[El que empitjora és el rendiment.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'antena passa a comportar-se com una antena omnidireccional]]></text>
+      <feedback format="html"><text><![CDATA[El diagrama no es transforma així.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Millora la relació F/B, però es redueix l'angle d'obertura]]></text>
+      <feedback format="html"><text><![CDATA[No; el que empitjora és el rendiment global.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P04 Definició de guany</text></name>
+    <questiontext format="html"><text><![CDATA[<p>El guany d'una antena mesura...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[la concentració de l'energia en una direcció respecte d'una antena de referència]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. S'expressa en dBi o en dBd.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[la potència elèctrica que l'antena afegeix al senyal gràcies als seus directors]]></text>
+      <feedback format="html"><text><![CDATA[Una antena passiva no afegeix energia.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[el nombre de canals que l'antena pot rebre alhora]]></text>
+      <feedback format="html"><text><![CDATA[No té relació amb el guany.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[les pèrdues del cable coaxial entre l'antena i l'equip de capçalera de l'edifici]]></text>
+      <feedback format="html"><text><![CDATA[Això són pèrdues de la xarxa.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[la diferència entre el senyal captat per davant i el captat per darrere]]></text>
+      <feedback format="html"><text><![CDATA[Això és la relació davant/darrere (F/B).]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P05 Guany d'una antena passiva</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Una antena passiva té un guany de 14 dBi. Què vol dir?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Que concentra la recepció en una direcció a costa de les altres]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. L'antena no afegeix energia.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Que amplifica electrònicament el senyal rebut 14 dB abans d'enviar-lo al cable]]></text>
+      <feedback format="html"><text><![CDATA[Una antena passiva no amplifica.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Que afegeix 14 dB d'energia al senyal gràcies al balun que porta incorporat]]></text>
+      <feedback format="html"><text><![CDATA[El balun adapta impedàncies; no afegeix energia.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Que necessita telealimentació pel cable coaxial per poder donar aquest guany]]></text>
+      <feedback format="html"><text><![CDATA[Això seria una antena activa.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Que té 14 dB menys pèrdues que el cable]]></text>
+      <feedback format="html"><text><![CDATA[El guany no es compara amb el cable.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P06 dBi i dBd</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quina relació hi ha entre el guany en dBi i el guany en dBd?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[dBi = dBd + 2,15]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El dipol λ/2 té 2,15 dB de guany respecte de l'antena isòtropa.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[dBd = dBi + 2,15]]></text>
+      <feedback format="html"><text><![CDATA[Al revés: el valor en dBi sempre és més gran.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[dBi = dBd × 2,15]]></text>
+      <feedback format="html"><text><![CDATA[Els decibels se sumen, no es multipliquen.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[dBi = dBd − 3]]></text>
+      <feedback format="html"><text><![CDATA[La diferència és de 2,15 dB i el valor en dBi és més gran.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Són la mateixa unitat amb un altre nom]]></text>
+      <feedback format="html"><text><![CDATA[Tenen antenes de referència diferents.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P07 Antena directiva</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Una antena molt directiva...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[té un feix principal estret]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Rep molt bé en una direcció i molt menys en les altres.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[reparteix l'energia per igual en totes direccions]]></text>
+      <feedback format="html"><text><![CDATA[Això descriu una antena omnidireccional.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té menys guany que una antena omnidireccional]]></text>
+      <feedback format="html"><text><![CDATA[Com més directiva, més guany en la direcció principal.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[no s'ha d'orientar cap a l'emissor]]></text>
+      <feedback format="html"><text><![CDATA[Com més directiva, més precisa ha de ser l'orientació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té un angle d'obertura molt ample]]></text>
+      <feedback format="html"><text><![CDATA[Una antena directiva té una obertura estreta.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P08 Directivitat i guany</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quan augmenta la directivitat d'una antena, què passa?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Augmenta el guany i el diagrama es fa més estret]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Cal trobar un equilibri entre guany i amplada del feix.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Augmenta el guany i el diagrama es fa més ample]]></text>
+      <feedback format="html"><text><![CDATA[El diagrama es fa més estret.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Disminueix el guany i el diagrama es fa més estret]]></text>
+      <feedback format="html"><text><![CDATA[El guany augmenta en la direcció principal.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'antena capta millor des de totes les direccions]]></text>
+      <feedback format="html"><text><![CDATA[Al contrari: afavoreix una direcció.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'antena consumeix més energia]]></text>
+      <feedback format="html"><text><![CDATA[Una antena passiva no consumeix energia.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P09 Angle d'obertura</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què és l'angle d'obertura (a −3 dB) d'una antena?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[L'amplada del lòbul principal]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Un angle petit dona més selectivitat.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle d'inclinació de l'antena respecte de l'horitzó]]></text>
+      <feedback format="html"><text><![CDATA[Això seria l'elevació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle entre el reflector i el primer director]]></text>
+      <feedback format="html"><text><![CDATA[No és un paràmetre de radiació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle que separa dos centres emissors]]></text>
+      <feedback format="html"><text><![CDATA[És una característica de l'antena.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle de gir necessari per canviar la polarització]]></text>
+      <feedback format="html"><text><![CDATA[Per canviar de polarització es gira 90°, però no és l'obertura.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P10 Obertura petita</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Si una antena té un angle d'obertura petit...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[és més selectiva, però cal orientar-la amb més precisió]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Un angle petit dona més selectivitat.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[capta emissors de moltes direccions sense haver de reorientar-la]]></text>
+      <feedback format="html"><text><![CDATA[Això passa amb una obertura àmplia.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té menys guany que una antena equivalent amb una obertura àmplia]]></text>
+      <feedback format="html"><text><![CDATA[Normalment una obertura petita va associada a més guany.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[ja no cal ajustar-ne la polarització]]></text>
+      <feedback format="html"><text><![CDATA[La polarització s'ha d'ajustar sempre.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té una amplada de banda més gran]]></text>
+      <feedback format="html"><text><![CDATA[L'obertura no determina l'amplada de banda.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P11 Relació davant/darrere</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Una relació davant/darrere (F/B) alta indica que l'antena...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[rebutja millor els senyals que arriben per darrere]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Rebutja millor els ecos i les interferències posteriors.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té una amplada de banda molt gran en tota la UHF]]></text>
+      <feedback format="html"><text><![CDATA[La F/B compara davant i darrere, no freqüències.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[capta igual per davant que per darrere]]></text>
+      <feedback format="html"><text><![CDATA[Això seria una F/B propera a 0 dB.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[és omnidireccional en el pla horitzontal]]></text>
+      <feedback format="html"><text><![CDATA[Una antena omnidireccional té una F/B baixa.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té una impedància ben adaptada als 75 Ω del coaxial]]></text>
+      <feedback format="html"><text><![CDATA[La F/B no té relació amb la impedància.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P12 Polarització</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què passa si la polarització de l'antena no coincideix amb la del senyal?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Hi ha pèrdues importants de senyal]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. L'antena s'ha de col·locar d'acord amb la polarització (H o V).]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El guany de l'antena es duplica]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només afecta les emissores de FM]]></text>
+      <feedback format="html"><text><![CDATA[Afecta tots els serveis.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[No té cap efecte si l'antena és de bona qualitat]]></text>
+      <feedback format="html"><text><![CDATA[La desadaptació de polarització sempre provoca pèrdues.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Canvia la freqüència intermèdia del senyal]]></text>
+      <feedback format="html"><text><![CDATA[La polarització no modifica la freqüència.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P13 Impedància</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quina impedància ha de presentar una antena per connectar-la als coaxials d'una ICT?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[75 Ω]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Així s'eviten desadaptacions i ones estacionàries.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[50 Ω]]></text>
+      <feedback format="html"><text><![CDATA[És habitual en altres sistemes, no en els coaxials de les ICT.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[300 Ω]]></text>
+      <feedback format="html"><text><![CDATA[És la impedància aproximada del dipol plegat, que s'adapta amb un balun.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[600 Ω]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[150 Ω]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>P14 Antena activa</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Una antena activa és la que...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[incorpora un amplificador telealimentat pel coaxial]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. En les ICT, però, l'amplificació es fa habitualment a la capçalera.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[té més directors que una Yagi convencional]]></text>
+      <feedback format="html"><text><![CDATA[Continuaria sent una antena passiva.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[pot transmetre i rebre senyal alhora]]></text>
+      <feedback format="html"><text><![CDATA[No és el significat d'antena activa.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[està connectada a la presa de terra de l'edifici]]></text>
+      <feedback format="html"><text><![CDATA[Totes les antenes i màstils s'han de connectar a terra.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[s'orienta automàticament cap a l'emissor amb un motor]]></text>
+      <feedback format="html"><text><![CDATA[No és el significat d'antena activa.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="matching">
+    <name><text>P15 Paràmetres i definicions</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Relaciona cada paràmetre amb la seva descripció.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[Guany]]></text>
+      <answer><text>Concentració de la recepció respecte d'una antena de referència</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Angle d'obertura]]></text>
+      <answer><text>Amplada del lòbul principal</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Relació F/B]]></text>
+      <answer><text>Diferència entre el que es capta per davant i per darrere</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Impedància]]></text>
+      <answer><text>Ha de ser de 75 Ω per evitar ones estacionàries</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Polarització]]></text>
+      <answer><text>Orientació H o V que ha de coincidir amb la del senyal</text></answer>
+    </subquestion>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Antenes/2 Antenes de recepció terrestre</text></category>
+  </question>
+  <question type="matching">
+    <name><text>T01 Serveis i bandes</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Relaciona cada servei amb la seva banda de freqüències.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[Ràdio FM]]></text>
+      <answer><text>87,5 – 108 MHz (banda II, VHF)</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Ràdio digital DAB/DAB+]]></text>
+      <answer><text>174 – 240 MHz (banda III, VHF)</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[TDT]]></text>
+      <answer><text>470 – 694 MHz (bandes IV i V, UHF)</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[TV per satèl·lit]]></text>
+      <answer><text>10,7 – 12,75 GHz (banda Ku)</text></answer>
+    </subquestion>
+  </question>
+  <question type="multichoice">
+    <name><text>T02 Segon dividend digital</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Des del segon dividend digital (2020), fins a quin canal ocupa la TDT a Espanya?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Fins al canal 48 (694 MHz)]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. La banda de 694 a 790 MHz es va assignar al 5G.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Fins al canal 60 (790 MHz)]]></text>
+      <feedback format="html"><text><![CDATA[Era el límit abans del segon dividend digital.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Fins al canal 69 (862 MHz)]]></text>
+      <feedback format="html"><text><![CDATA[Era el límit abans del primer dividend digital.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Fins al canal 21 (474 MHz)]]></text>
+      <feedback format="html"><text><![CDATA[El canal 21 és el primer de la banda, no l'últim.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Fins al canal 36 (594 MHz)]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T03 Filtre LTE/5G</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Per què moltes antenes de TDT porten un filtre LTE/5G integrat?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Per evitar que els senyals de mòbil (694 – 790 MHz) saturin els amplificadors]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Aquesta banda es va assignar a la telefonia mòbil.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Per poder rebre els canals de TDT a través de la xarxa de telefonia mòbil]]></text>
+      <feedback format="html"><text><![CDATA[El filtre rebutja els senyals mòbils.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Per augmentar el guany de l'antena a la part alta de la banda UHF, on hi ha més pèrdues]]></text>
+      <feedback format="html"><text><![CDATA[Un filtre no augmenta el guany.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè la normativa prohibeix rebre canals de TDT per sota dels 470 MHz a les ICT]]></text>
+      <feedback format="html"><text><![CDATA[No és la funció del filtre.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Per adaptar la impedància del dipol de 300 Ω als 75 Ω del coaxial i evitar ones estacionàries]]></text>
+      <feedback format="html"><text><![CDATA[Això ho fa el balun.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T04 Element actiu de la Yagi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quin és l'únic element d'una antena Yagi-Uda connectat al cable coaxial?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[El dipol]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El reflector i els directors són elements passius.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El reflector]]></text>
+      <feedback format="html"><text><![CDATA[És un element passiu.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El director més llarg]]></text>
+      <feedback format="html"><text><![CDATA[Els directors són elements passius.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El boom]]></text>
+      <feedback format="html"><text><![CDATA[És el suport mecànic dels elements.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El primer i l'últim director]]></text>
+      <feedback format="html"><text><![CDATA[Els directors són elements passius.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T05 Reflector de la Yagi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>El reflector d'una antena Yagi...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[és darrere del dipol, una mica més llarg, i redueix la captació posterior]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Funciona per l'acoblament amb el dipol.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[és davant del dipol, més curt, i concentra la recepció cap a l'emissor]]></text>
+      <feedback format="html"><text><![CDATA[Això descriu un director.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[és l'element connectat al cable i té uns 300 Ω d'impedància]]></text>
+      <feedback format="html"><text><![CDATA[L'element connectat és el dipol.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[serveix sobretot per ampliar la banda de treball de l'antena]]></text>
+      <feedback format="html"><text><![CDATA[La seva funció principal és reduir la captació posterior.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[és el suport metàl·lic on es munten tots els elements de l'antena, des del dipol fins als directors]]></text>
+      <feedback format="html"><text><![CDATA[Això és el boom.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T06 Directors de la Yagi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Els directors d'una antena Yagi...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[són davant del dipol, cada cop més curts, i concentren la recepció]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Els corrents induïts tornen a radiar i reforcen el senyal frontal.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[són darrere del dipol, més llargs, i rebutgen el senyal posterior]]></text>
+      <feedback format="html"><text><![CDATA[Això descriu el reflector.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[estan connectats a la línia alternant la fase, com en una logoperiòdica]]></text>
+      <feedback format="html"><text><![CDATA[Els directors són elements passius.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[no influeixen en el diagrama perquè no estan connectats al cable]]></text>
+      <feedback format="html"><text><![CDATA[Sí que hi influeixen, per acoblament.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[serveixen per adaptar la impedància del dipol]]></text>
+      <feedback format="html"><text><![CDATA[Això ho fa el balun.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T07 Afegir directors</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què passa si s'afegeixen directors a una antena Yagi?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Més guany i directivitat, però menys amplada de banda]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. A més, l'antena és més llarga.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Més guany i també més amplada de banda de treball a la UHF]]></text>
+      <feedback format="html"><text><![CDATA[L'amplada de banda es redueix.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Menys guany, però més directivitat i un lòbul principal més estret]]></text>
+      <feedback format="html"><text><![CDATA[El guany augmenta amb la directivitat.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'antena passa a ser omnidireccional]]></text>
+      <feedback format="html"><text><![CDATA[Al contrari: és més directiva.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només canvia la impedància del dipol, però el diagrama de radiació es manté igual]]></text>
+      <feedback format="html"><text><![CDATA[El diagrama es fa més estret.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T08 Orientació de la Yagi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Com s'orienta una antena Yagi?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Amb els directors apuntant cap a l'emissor]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El reflector queda a la part posterior.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Amb el reflector apuntant cap a l'emissor]]></text>
+      <feedback format="html"><text><![CDATA[El reflector va a la part posterior.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perpendicular a la direcció de l'emissor]]></text>
+      <feedback format="html"><text><![CDATA[L'eix de l'antena apunta cap a l'emissor.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[No cal orientar-la perquè és omnidireccional]]></text>
+      <feedback format="html"><text><![CDATA[És una antena directiva.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Apuntant cap al satèl·lit]]></text>
+      <feedback format="html"><text><![CDATA[La Yagi capta senyals terrestres.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T09 Polarització vertical amb Yagi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Com es rep un senyal amb polarització vertical amb una antena Yagi?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Girant l'antena 90°]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Els elements han de quedar verticals.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Afegint-hi més directors]]></text>
+      <feedback format="html"><text><![CDATA[Els directors no canvien la polarització.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Girant-la 180° perquè el reflector quedi davant]]></text>
+      <feedback format="html"><text><![CDATA[Això empitjoraria la recepció.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Canviant el cable coaxial per un de 50 Ω]]></text>
+      <feedback format="html"><text><![CDATA[La impedància no té relació amb la polarització.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Activant el filtre LTE/5G]]></text>
+      <feedback format="html"><text><![CDATA[El filtre no canvia la polarització.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T10 Adaptació del dipol plegat</text></name>
+    <questiontext format="html"><text><![CDATA[<p>El dipol plegat d'una Yagi té una impedància d'uns 300 Ω. Com s'adapta als 75 Ω del coaxial?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Amb un balun]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. És un adaptador d'impedàncies.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Amb un amplificador de màstil]]></text>
+      <feedback format="html"><text><![CDATA[L'amplificador no fa l'adaptació d'impedàncies.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Allargant el cable coaxial]]></text>
+      <feedback format="html"><text><![CDATA[La longitud del cable no adapta la impedància.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Amb el filtre LTE/5G]]></text>
+      <feedback format="html"><text><![CDATA[El filtre rebutja freqüències, però no adapta impedàncies.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Amb un reflector més llarg]]></text>
+      <feedback format="html"><text><![CDATA[El reflector no fa l'adaptació d'impedàncies.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T11 Funcionament de la logoperiòdica</text></name>
+    <questiontext format="html"><text><![CDATA[<p>En una antena logoperiòdica, quins dipols treballen principalment a cada freqüència?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Els que fan aproximadament λ/2 a aquella freqüència]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. La zona activa es desplaça al llarg de l'antena.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Sempre el dipol més llarg, sigui quina sigui la freqüència del senyal]]></text>
+      <feedback format="html"><text><![CDATA[El llarg treballa a les freqüències baixes.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Sempre el dipol més curt de l'antena]]></text>
+      <feedback format="html"><text><![CDATA[El curt treballa a les freqüències altes.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Tots els dipols per igual, a qualsevol freqüència de la banda]]></text>
+      <feedback format="html"><text><![CDATA[Treballa principalment el grup de dipols ressonants.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només el dipol connectat al coaxial]]></text>
+      <feedback format="html"><text><![CDATA[Tots els dipols estan connectats a la línia.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T12 Avantatge de la logoperiòdica</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quin és l'avantatge principal d'una antena logoperiòdica?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Gran amplada de banda, amb guany i impedància força constants]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Pot cobrir tota la UHF, o VHF i UHF alhora.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Més guany que una Yagi de la mateixa longitud optimitzada per a la banda]]></text>
+      <feedback format="html"><text><![CDATA[Té menys guany que una Yagi optimitzada.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[És omnidireccional i no cal orientar-la cap al centre emissor de TDT]]></text>
+      <feedback format="html"><text><![CDATA[És una antena directiva.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[No cal connectar-la a la presa de terra]]></text>
+      <feedback format="html"><text><![CDATA[Totes les antenes s'han de connectar a terra.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Té una obertura de pocs graus, com una parabòlica]]></text>
+      <feedback format="html"><text><![CDATA[Té una directivitat mitjana.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T13 Alimentació de la logoperiòdica</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Com s'alimenten els dipols d'una antena logoperiòdica?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Tots connectats a la línia, alternant la fase]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. És l'alimentació transposada o creuada.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només el dipol central; la resta fan de reflector i directors, com en una Yagi]]></text>
+      <feedback format="html"><text><![CDATA[No s'ha d'interpretar com una Yagi.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només el dipol més llarg, que fa de reflector]]></text>
+      <feedback format="html"><text><![CDATA[Tots els dipols estan connectats.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Cada dipol té el seu propi cable coaxial fins a la capçalera]]></text>
+      <feedback format="html"><text><![CDATA[Tots comparteixen la línia d'alimentació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Cap: el senyal es capta per inducció en el boom]]></text>
+      <feedback format="html"><text><![CDATA[Tots els dipols estan connectats a la línia.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T14 Antena de panell</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quina característica correspon a una antena de panell?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bona relació F/B i obertura horitzontal més àmplia que una Yagi]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Gràcies a la pantalla reflectora.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[És omnidireccional en el pla horitzontal]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon al dipol circular.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Té un angle d'obertura de pocs graus, com una parabòlica de satèl·lit]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a la parabòlica.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Està formada per dipols de longitud i separació creixents segons un factor τ]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a la logoperiòdica.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només té un dipol, sense reflector]]></text>
+      <feedback format="html"><text><![CDATA[Té una agrupació de dipols davant d'una pantalla reflectora.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T15 Dipol circular FM</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Per què el dipol circular és l'antena de FM més habitual en les ICT?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Perquè és aproximadament omnidireccional en el pla horitzontal]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Capta emissores de diferents direccions sense orientar-lo.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè té el guany més alt de totes les antenes de FM del mercat]]></text>
+      <feedback format="html"><text><![CDATA[Té poc guany; si cal guany, s'usa una Yagi FM.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè treballa a la banda III de VHF]]></text>
+      <feedback format="html"><text><![CDATA[La FM és a la banda II.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè només rep emissores amb polarització vertical, que és la més habitual]]></text>
+      <feedback format="html"><text><![CDATA[No és el motiu.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè té una relació F/B molt elevada]]></text>
+      <feedback format="html"><text><![CDATA[Una antena omnidireccional té una F/B baixa.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T16 Dipol recte</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Com és el diagrama de recepció d'un dipol recte?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Bidireccional]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Rep millor perpendicularment als braços.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Omnidireccional en totes les direccions de l'espai]]></text>
+      <feedback format="html"><text><![CDATA[Té mínims en la direcció dels braços.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Molt directiu, amb un feix de pocs graus]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a la parabòlica.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Rep millor en la direcció dels braços]]></text>
+      <feedback format="html"><text><![CDATA[En la direcció dels braços hi ha un mínim.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Unidireccional, només per davant]]></text>
+      <feedback format="html"><text><![CDATA[Rep per les dues cares.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T17 Polarització DAB</text></name>
+    <questiontext format="html"><text><![CDATA[<p>A Europa, la ràdio digital DAB/DAB+ s'emet majoritàriament amb polarització...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[vertical]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Per això l'antena s'instal·la amb els elements verticals.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[horitzontal]]></text>
+      <feedback format="html"><text><![CDATA[És majoritàriament vertical.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[circular]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[mixta]]></text>
+      <feedback format="html"><text><![CDATA[La polarització mixta pot aparèixer en FM.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[el·líptica]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T18 Escenari senyal feble</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Un poble és a 40 km del centre emissor de TDT, el senyal és feble i tots els canals arriben d'una sola direcció. Quina antena és més adequada?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Una Yagi d'alt guany]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El guany i la selectivitat són prioritaris.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una antena de panell]]></text>
+      <feedback format="html"><text><![CDATA[És més adequada amb senyal fort o diverses direccions properes.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Un dipol circular]]></text>
+      <feedback format="html"><text><![CDATA[És una antena per a FM.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una logoperiòdica de VHF i UHF]]></text>
+      <feedback format="html"><text><![CDATA[Té menys guany que una Yagi optimitzada per a la banda.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Un dipol recte]]></text>
+      <feedback format="html"><text><![CDATA[No és una antena per a la TDT.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T19 Escenari reflexions</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Un edifici és a prop del centre emissor, hi ha reflexions i dos repetidors en direccions properes. Quina antena és més adequada?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Una antena de panell]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Té una obertura àmplia i una bona relació F/B.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una Yagi de molts elements]]></text>
+      <feedback format="html"><text><![CDATA[La seva obertura estreta obligaria a triar un sol repetidor.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una antena parabòlica]]></text>
+      <feedback format="html"><text><![CDATA[És per a la recepció per satèl·lit.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Un dipol recte]]></text>
+      <feedback format="html"><text><![CDATA[No és una antena per a la TDT.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Un dipol circular de FM]]></text>
+      <feedback format="html"><text><![CDATA[És una antena per a FM.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>T20 Escenari VHF i UHF</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Es volen captar senyals de VHF i d'UHF que arriben de la mateixa direcció amb una sola antena. Quina és la més adequada?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Una logoperiòdica]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Té una amplada de banda molt àmplia.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una Yagi d'UHF]]></text>
+      <feedback format="html"><text><![CDATA[Només cobreix la UHF.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Un dipol circular]]></text>
+      <feedback format="html"><text><![CDATA[És una antena per a FM.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una parabòlica offset]]></text>
+      <feedback format="html"><text><![CDATA[És per a la recepció per satèl·lit.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Una antena de panell d'UHF]]></text>
+      <feedback format="html"><text><![CDATA[Només cobreix la UHF.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="matching">
+    <name><text>T23 Antenes i punts forts</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Relaciona cada antena amb el seu punt fort.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[Yagi]]></text>
+      <answer><text>Guany elevat i bona selectivitat</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Logoperiòdica]]></text>
+      <answer><text>Comportament uniforme en una banda molt àmplia</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Panell]]></text>
+      <answer><text>Bona relació F/B i obertura àmplia</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Dipol circular]]></text>
+      <answer><text>Rep emissores de totes les direccions</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Parabòlica]]></text>
+      <answer><text>Guany molt elevat (30 – 40 dBi)</text></answer>
+    </subquestion>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Antenes/3 Antenes de recepció per satèl·lit</text></category>
+  </question>
+  <question type="multichoice">
+    <name><text>S01 Satèl·lits geoestacionaris</text></name>
+    <questiontext format="html"><text><![CDATA[<p>A quina altura aproximada sobre l'equador es troben els satèl·lits geoestacionaris?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Uns 36.000 km]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Per això ocupen una posició aparentment fixa en el cel.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Uns 800 km]]></text>
+      <feedback format="html"><text><![CDATA[És l'altura típica d'una òrbita baixa.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Uns 3.600 km]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Uns 360.000 km]]></text>
+      <feedback format="html"><text><![CDATA[És aproximadament la distància a la Lluna.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Uns 20.000 km]]></text>
+      <feedback format="html"><text><![CDATA[És l'altura aproximada dels satèl·lits de GPS.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S02 Satèl·lits habituals</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quins són els satèl·lits més habituals des de la península i la seva posició orbital?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Hispasat (30° O) i Astra (19,2° E)]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Són els més habituals des de la península.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Hispasat (19,2° E) i Astra (30° O)]]></text>
+      <feedback format="html"><text><![CDATA[Les posicions estan intercanviades.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Hispasat (30° E) i Astra (19,2° O)]]></text>
+      <feedback format="html"><text><![CDATA[Hispasat és a l'oest i Astra a l'est.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Hispasat (13° E) i Astra (28,2° E)]]></text>
+      <feedback format="html"><text><![CDATA[No són les posicions d'aquests satèl·lits.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Hispasat (19,2° O) i Astra (30° E)]]></text>
+      <feedback format="html"><text><![CDATA[No són les posicions d'aquests satèl·lits.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="matching">
+    <name><text>S03 Parts de la parabòlica</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Relaciona cada part del sistema de recepció per satèl·lit amb la seva funció.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[Reflector parabòlic]]></text>
+      <answer><text>Recull les ones i les concentra en el focus</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Alimentador (feedhorn)]]></text>
+      <answer><text>Botzina situada al focus que capta l'energia concentrada</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[LNB]]></text>
+      <answer><text>Amplifica amb poc soroll i converteix el senyal a FI</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[LNBF]]></text>
+      <answer><text>Alimentador i LNB en una sola unitat</text></answer>
+    </subquestion>
+  </question>
+  <question type="multichoice">
+    <name><text>S04 Per què es converteix a FI</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Per què l'LNB converteix el senyal a una freqüència intermèdia de 950 – 2150 MHz?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Perquè a uns 11 GHz les pèrdues del coaxial serien enormes]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. A la FI el senyal es pot transportar pel coaxial.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè els televisors i els receptors domèstics només admeten senyals de la banda UHF]]></text>
+      <feedback format="html"><text><![CDATA[No és el motiu.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Per poder canviar la polarització del senyal que arriba del satèl·lit]]></text>
+      <feedback format="html"><text><![CDATA[La polarització se selecciona amb la tensió.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Per augmentar el guany del reflector parabòlic i reduir el soroll del senyal]]></text>
+      <feedback format="html"><text><![CDATA[El guany del reflector no depèn de la FI.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè la normativa obliga a distribuir per sota d'1 GHz]]></text>
+      <feedback format="html"><text><![CDATA[No és el motiu.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S05 Tensió de 18 V</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Un receptor alimenta l'LNB universal amb 18 V pel coaxial. Quina polarització selecciona?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Horitzontal]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. 13 V → vertical; 18 V → horitzontal.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Vertical]]></text>
+      <feedback format="html"><text><![CDATA[La vertical se selecciona amb 13 V.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Cap: la tensió selecciona la banda alta]]></text>
+      <feedback format="html"><text><![CDATA[La banda se selecciona amb el to de 22 kHz.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Cap: la tensió selecciona la banda baixa]]></text>
+      <feedback format="html"><text><![CDATA[La banda se selecciona amb el to de 22 kHz.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Circular]]></text>
+      <feedback format="html"><text><![CDATA[L'LNB universal treballa amb polarització H i V.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S06 To de 22 kHz</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què selecciona el to de 22 kHz en un LNB universal?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[La banda alta (OL de 10,6 GHz)]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Sense to → banda baixa (OL de 9,75 GHz).]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[La banda baixa (OL de 9,75 GHz)]]></text>
+      <feedback format="html"><text><![CDATA[La banda baixa és sense to.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[La polarització vertical]]></text>
+      <feedback format="html"><text><![CDATA[La polarització se selecciona amb la tensió.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[La polarització horitzontal]]></text>
+      <feedback format="html"><text><![CDATA[La polarització se selecciona amb la tensió.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'alimentació de l'LNB a 13 V]]></text>
+      <feedback format="html"><text><![CDATA[La tensió i el to són senyals independents.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S07 LNB per a ICT</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quin tipus d'LNB s'utilitza amb multicommutadors en instal·lacions col·lectives com les ICT?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Quattro]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Té 4 sortides fixes (VL, VH, HL, HH).]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Single]]></text>
+      <feedback format="html"><text><![CDATA[Només té una sortida per a un receptor.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Twin]]></text>
+      <feedback format="html"><text><![CDATA[Té 2 sortides independents per a 2 receptors.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Octo]]></text>
+      <feedback format="html"><text><![CDATA[Té 8 sortides independents per a receptors, no sortides fixes.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Quad]]></text>
+      <feedback format="html"><text><![CDATA[Té 4 sortides independents per a receptors, no sortides fixes per banda i polarització.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="matching">
+    <name><text>S08 Tipus d'LNB</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Relaciona cada tipus d'LNB amb la seva característica.</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <subquestion format="html">
+      <text><![CDATA[Single]]></text>
+      <answer><text>Una sortida per a un receptor</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Twin]]></text>
+      <answer><text>Dues sortides independents</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[Quattro]]></text>
+      <answer><text>Quatre sortides fixes (VL, VH, HL, HH)</text></answer>
+    </subquestion>
+    <subquestion format="html">
+      <text><![CDATA[SCR / dCSS (Unicable)]]></text>
+      <answer><text>Diversos receptors per un sol cable</text></answer>
+    </subquestion>
+  </question>
+  <question type="multichoice">
+    <name><text>S09 Parabòlica offset</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Per què una parabòlica offset sembla més vertical del que indica l'elevació real?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Perquè el focus està desplaçat i té un angle d'offset de 20° a 25°]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El reflector és un tall lateral del paraboloide.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè l'LNB està situat al centre, just davant del reflector parabòlic]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a la parabòlica de focus primari.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè utilitza un subreflector, com les Cassegrain]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a les Cassegrain i Gregorianes.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè s'orienta cap a un satèl·lit més baix que Hispasat]]></text>
+      <feedback format="html"><text><![CDATA[És una característica del disseny offset.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Perquè l'elevació es mesura sempre des de la vertical i no des de l'horitzó]]></text>
+      <feedback format="html"><text><![CDATA[L'elevació és l'angle sobre l'horitzó.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S10 Focus primari</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quina afirmació correspon a una parabòlica de focus primari (centrada)?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[L'LNB és al centre, fa una mica d'ombra i s'usa en diàmetres grans]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. L'LNB està davant del reflector.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'LNB no fa ombra a la superfície útil del reflector]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a l'offset.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Utilitza un subreflector, com les antenes de les estacions professionals]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a les Cassegrain i Gregorianes.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[És la més habitual en les instal·lacions domèstiques]]></text>
+      <feedback format="html"><text><![CDATA[La més habitual és l'offset.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Té diversos focus per poder rebre diversos satèl·lits alhora amb un sol reflector]]></text>
+      <feedback format="html"><text><![CDATA[Això correspon a l'antena tòrica.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S11 Paràmetres d'orientació</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Quins paràmetres cal ajustar per orientar una antena parabòlica?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Azimut, elevació i polarització (skew)]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. L'ajust fi es fa amb el mesurador de camp.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Azimut, elevació i freqüència intermèdia]]></text>
+      <feedback format="html"><text><![CDATA[La FI no és un paràmetre d'orientació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Elevació, impedància i guany de l'LNB]]></text>
+      <feedback format="html"><text><![CDATA[No són paràmetres d'orientació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Només l'azimut i la tensió d'alimentació de l'LNB]]></text>
+      <feedback format="html"><text><![CDATA[Cal també l'elevació i la polarització.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Azimut, angle d'offset i diàmetre del reflector]]></text>
+      <feedback format="html"><text><![CDATA[L'offset i el diàmetre són característiques de l'antena.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S12 Azimut</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què és l'azimut d'una antena parabòlica?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[L'angle horitzontal respecte del nord]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. Es complementa amb l'elevació i la polarització.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle vertical sobre l'horitzó]]></text>
+      <feedback format="html"><text><![CDATA[Això és l'elevació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El gir de l'LNB sobre el seu eix]]></text>
+      <feedback format="html"><text><![CDATA[Això és la polarització (skew).]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle d'offset del reflector]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[L'angle respecte de l'equador]]></text>
+      <feedback format="html"><text><![CDATA[No.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S13 Ajust fi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Amb el mesurador de camp, l'ajust fi de la parabòlica es fa buscant...</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[la màxima qualitat del senyal (MER/BER)]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. No n'hi ha prou amb el màxim nivell.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[només el màxim nivell de senyal]]></text>
+      <feedback format="html"><text><![CDATA[El nivell sol no garanteix una bona recepció.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[la mínima tensió d'alimentació de l'LNB]]></text>
+      <feedback format="html"><text><![CDATA[No té relació amb l'orientació.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[el mínim nivell de soroll del cable coaxial]]></text>
+      <feedback format="html"><text><![CDATA[No és el criteri d'ajust.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[la màxima freqüència intermèdia]]></text>
+      <feedback format="html"><text><![CDATA[La FI depèn del senyal i de l'OL, no de l'orientació.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S14 Augmentar el diàmetre</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Què passa si s'augmenta el diàmetre de la parabòlica?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Més guany, feix més estret i cal més precisió]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El guany augmenta amb el diàmetre.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Més guany, feix més ample i cal menys precisió]]></text>
+      <feedback format="html"><text><![CDATA[El feix es fa més estret.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Menys guany, però l'orientació és més fàcil]]></text>
+      <feedback format="html"><text><![CDATA[El guany augmenta.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[El guany no varia, només millora la relació F/B de l'antena]]></text>
+      <feedback format="html"><text><![CDATA[El guany augmenta amb el diàmetre.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Més guany, però augmenta la FI de sortida de l'LNB]]></text>
+      <feedback format="html"><text><![CDATA[La FI no depèn del diàmetre.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name><text>S15 Diversos satèl·lits</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Com es poden rebre diversos satèl·lits amb una sola antena?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html"><text><![CDATA[]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[]]></text></incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text><![CDATA[Amb un suport multifocus o amb una antena tòrica]]></text>
+      <feedback format="html"><text><![CDATA[Correcte. El multifocus porta diversos LNB; la tòrica té diversos focus.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Amb un LNB Quattro i un multicommutador]]></text>
+      <feedback format="html"><text><![CDATA[El Quattro dona les 4 combinacions d'un sol satèl·lit.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Girant la polarització (skew) de l'LNB]]></text>
+      <feedback format="html"><text><![CDATA[El skew alinea la polarització, no canvia de satèl·lit.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Alimentant l'LNB a 18 V]]></text>
+      <feedback format="html"><text><![CDATA[La tensió selecciona la polarització.]]></text></feedback>
+    </answer>
+    <answer fraction="-25" format="html">
+      <text><![CDATA[Activant el to de 22 kHz]]></text>
+      <feedback format="html"><text><![CDATA[El to selecciona la banda.]]></text></feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>$course$/top/Antenes/4 Càlculs (valors aleatoris)</text></category>
+  </question>
+  <question type="calculated">
+    <name><text>C05 dBd a dBi</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Una antena té un guany de <b>{g} dBd</b>. Quin és el seu guany <b>en dBi</b>?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>dBi = dBd + 2,15 = {g} + 2,15 = <b>{=round({g}+2.15,2)} dBi</b>.</p>]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html"><text></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text></text></incorrectfeedback>
+    <answer fraction="100">
+      <text>{g}+2.15</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>2</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>g</text></name>
+        <type>calculated</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>5.0</text></minimum>
+        <maximum><text>15.0</text></maximum>
+        <decimals><text>1</text></decimals>
+        <itemcount>30</itemcount>
+        <dataset_items>
+          <dataset_item><number>1</number><value>11.2</value></dataset_item>
+          <dataset_item><number>2</number><value>14.1</value></dataset_item>
+          <dataset_item><number>3</number><value>14.7</value></dataset_item>
+          <dataset_item><number>4</number><value>12.9</value></dataset_item>
+          <dataset_item><number>5</number><value>5.6</value></dataset_item>
+          <dataset_item><number>6</number><value>6.8</value></dataset_item>
+          <dataset_item><number>7</number><value>12.3</value></dataset_item>
+          <dataset_item><number>8</number><value>14.3</value></dataset_item>
+          <dataset_item><number>9</number><value>9.2</value></dataset_item>
+          <dataset_item><number>10</number><value>10.4</value></dataset_item>
+          <dataset_item><number>11</number><value>5.1</value></dataset_item>
+          <dataset_item><number>12</number><value>11.1</value></dataset_item>
+          <dataset_item><number>13</number><value>15.0</value></dataset_item>
+          <dataset_item><number>14</number><value>11.1</value></dataset_item>
+          <dataset_item><number>15</number><value>8.6</value></dataset_item>
+          <dataset_item><number>16</number><value>10.0</value></dataset_item>
+          <dataset_item><number>17</number><value>6.2</value></dataset_item>
+          <dataset_item><number>18</number><value>9.8</value></dataset_item>
+          <dataset_item><number>19</number><value>14.2</value></dataset_item>
+          <dataset_item><number>20</number><value>5.9</value></dataset_item>
+          <dataset_item><number>21</number><value>11.9</value></dataset_item>
+          <dataset_item><number>22</number><value>13.5</value></dataset_item>
+          <dataset_item><number>23</number><value>12.2</value></dataset_item>
+          <dataset_item><number>24</number><value>8.7</value></dataset_item>
+          <dataset_item><number>25</number><value>6.5</value></dataset_item>
+          <dataset_item><number>26</number><value>7.3</value></dataset_item>
+          <dataset_item><number>27</number><value>13.4</value></dataset_item>
+          <dataset_item><number>28</number><value>9.4</value></dataset_item>
+          <dataset_item><number>29</number><value>7.4</value></dataset_item>
+          <dataset_item><number>30</number><value>12.8</value></dataset_item>
+        </dataset_items>
+        <number_of_items>30</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type="calculated">
+    <name><text>C06 dBi a dBd</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Un fabricant indica que la seva antena té un guany de <b>{g} dBi</b>. Quin és el guany <b>en dBd</b>?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>dBd = dBi − 2,15 = {g} − 2,15 = <b>{=round({g}-2.15,2)} dBd</b>.</p>]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html"><text></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text></text></incorrectfeedback>
+    <answer fraction="100">
+      <text>{g}-2.15</text>
+      <tolerance>0.05</tolerance>
+      <tolerancetype>2</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>g</text></name>
+        <type>calculated</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>7.0</text></minimum>
+        <maximum><text>17.0</text></maximum>
+        <decimals><text>1</text></decimals>
+        <itemcount>30</itemcount>
+        <dataset_items>
+          <dataset_item><number>1</number><value>9.3</value></dataset_item>
+          <dataset_item><number>2</number><value>15.0</value></dataset_item>
+          <dataset_item><number>3</number><value>12.4</value></dataset_item>
+          <dataset_item><number>4</number><value>10.9</value></dataset_item>
+          <dataset_item><number>5</number><value>15.5</value></dataset_item>
+          <dataset_item><number>6</number><value>8.0</value></dataset_item>
+          <dataset_item><number>7</number><value>11.0</value></dataset_item>
+          <dataset_item><number>8</number><value>8.3</value></dataset_item>
+          <dataset_item><number>9</number><value>11.5</value></dataset_item>
+          <dataset_item><number>10</number><value>12.2</value></dataset_item>
+          <dataset_item><number>11</number><value>14.8</value></dataset_item>
+          <dataset_item><number>12</number><value>8.3</value></dataset_item>
+          <dataset_item><number>13</number><value>16.4</value></dataset_item>
+          <dataset_item><number>14</number><value>11.0</value></dataset_item>
+          <dataset_item><number>15</number><value>8.4</value></dataset_item>
+          <dataset_item><number>16</number><value>13.7</value></dataset_item>
+          <dataset_item><number>17</number><value>15.5</value></dataset_item>
+          <dataset_item><number>18</number><value>13.1</value></dataset_item>
+          <dataset_item><number>19</number><value>7.5</value></dataset_item>
+          <dataset_item><number>20</number><value>8.9</value></dataset_item>
+          <dataset_item><number>21</number><value>14.8</value></dataset_item>
+          <dataset_item><number>22</number><value>15.4</value></dataset_item>
+          <dataset_item><number>23</number><value>10.1</value></dataset_item>
+          <dataset_item><number>24</number><value>14.6</value></dataset_item>
+          <dataset_item><number>25</number><value>7.5</value></dataset_item>
+          <dataset_item><number>26</number><value>16.1</value></dataset_item>
+          <dataset_item><number>27</number><value>12.0</value></dataset_item>
+          <dataset_item><number>28</number><value>14.7</value></dataset_item>
+          <dataset_item><number>29</number><value>14.4</value></dataset_item>
+          <dataset_item><number>30</number><value>9.2</value></dataset_item>
+        </dataset_items>
+        <number_of_items>30</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type="calculated">
+    <name><text>C07 FI a la banda baixa</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Un senyal de <b>{f} GHz</b> es rep a la banda baixa d'un LNB universal (OL = 9,75 GHz). Quina és la freqüència intermèdia de sortida <b>en MHz</b>?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>FI = f(senyal) − f(OL) = {f} − 9,75 = {=round({f}-9.75,2)} GHz = <b>{=round(({f}-9.75)*1000,0)} MHz</b>.</p>]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html"><text></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text></text></incorrectfeedback>
+    <answer fraction="100">
+      <text>({f}-9.75)*1000</text>
+      <tolerance>1</tolerance>
+      <tolerancetype>2</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>f</text></name>
+        <type>calculated</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>10.70</text></minimum>
+        <maximum><text>11.70</text></maximum>
+        <decimals><text>2</text></decimals>
+        <itemcount>30</itemcount>
+        <dataset_items>
+          <dataset_item><number>1</number><value>11.22</value></dataset_item>
+          <dataset_item><number>2</number><value>11.59</value></dataset_item>
+          <dataset_item><number>3</number><value>11.22</value></dataset_item>
+          <dataset_item><number>4</number><value>11.05</value></dataset_item>
+          <dataset_item><number>5</number><value>11.30</value></dataset_item>
+          <dataset_item><number>6</number><value>11.27</value></dataset_item>
+          <dataset_item><number>7</number><value>10.96</value></dataset_item>
+          <dataset_item><number>8</number><value>11.10</value></dataset_item>
+          <dataset_item><number>9</number><value>11.49</value></dataset_item>
+          <dataset_item><number>10</number><value>11.34</value></dataset_item>
+          <dataset_item><number>11</number><value>10.79</value></dataset_item>
+          <dataset_item><number>12</number><value>11.26</value></dataset_item>
+          <dataset_item><number>13</number><value>11.37</value></dataset_item>
+          <dataset_item><number>14</number><value>11.19</value></dataset_item>
+          <dataset_item><number>15</number><value>11.44</value></dataset_item>
+          <dataset_item><number>16</number><value>11.68</value></dataset_item>
+          <dataset_item><number>17</number><value>11.48</value></dataset_item>
+          <dataset_item><number>18</number><value>10.78</value></dataset_item>
+          <dataset_item><number>19</number><value>10.93</value></dataset_item>
+          <dataset_item><number>20</number><value>11.59</value></dataset_item>
+          <dataset_item><number>21</number><value>11.33</value></dataset_item>
+          <dataset_item><number>22</number><value>11.54</value></dataset_item>
+          <dataset_item><number>23</number><value>10.99</value></dataset_item>
+          <dataset_item><number>24</number><value>11.03</value></dataset_item>
+          <dataset_item><number>25</number><value>11.30</value></dataset_item>
+          <dataset_item><number>26</number><value>11.47</value></dataset_item>
+          <dataset_item><number>27</number><value>10.76</value></dataset_item>
+          <dataset_item><number>28</number><value>10.95</value></dataset_item>
+          <dataset_item><number>29</number><value>11.70</value></dataset_item>
+          <dataset_item><number>30</number><value>11.63</value></dataset_item>
+        </dataset_items>
+        <number_of_items>30</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type="calculated">
+    <name><text>C08 FI a la banda alta</text></name>
+    <questiontext format="html"><text><![CDATA[<p>Un senyal de <b>{f} GHz</b> es rep a la banda alta d'un LNB universal (OL = 10,6 GHz). Quina és la freqüència intermèdia de sortida <b>en MHz</b>?</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>FI = f(senyal) − f(OL) = {f} − 10,6 = {=round({f}-10.6,2)} GHz = <b>{=round(({f}-10.6)*1000,0)} MHz</b>.</p>]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html"><text></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text></text></incorrectfeedback>
+    <answer fraction="100">
+      <text>({f}-10.6)*1000</text>
+      <tolerance>1</tolerance>
+      <tolerancetype>2</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>0</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>f</text></name>
+        <type>calculated</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>11.70</text></minimum>
+        <maximum><text>12.75</text></maximum>
+        <decimals><text>2</text></decimals>
+        <itemcount>30</itemcount>
+        <dataset_items>
+          <dataset_item><number>1</number><value>11.98</value></dataset_item>
+          <dataset_item><number>2</number><value>12.47</value></dataset_item>
+          <dataset_item><number>3</number><value>11.93</value></dataset_item>
+          <dataset_item><number>4</number><value>12.72</value></dataset_item>
+          <dataset_item><number>5</number><value>12.42</value></dataset_item>
+          <dataset_item><number>6</number><value>12.30</value></dataset_item>
+          <dataset_item><number>7</number><value>12.27</value></dataset_item>
+          <dataset_item><number>8</number><value>12.51</value></dataset_item>
+          <dataset_item><number>9</number><value>11.77</value></dataset_item>
+          <dataset_item><number>10</number><value>11.95</value></dataset_item>
+          <dataset_item><number>11</number><value>12.49</value></dataset_item>
+          <dataset_item><number>12</number><value>12.28</value></dataset_item>
+          <dataset_item><number>13</number><value>12.65</value></dataset_item>
+          <dataset_item><number>14</number><value>12.53</value></dataset_item>
+          <dataset_item><number>15</number><value>12.25</value></dataset_item>
+          <dataset_item><number>16</number><value>12.67</value></dataset_item>
+          <dataset_item><number>17</number><value>12.18</value></dataset_item>
+          <dataset_item><number>18</number><value>11.95</value></dataset_item>
+          <dataset_item><number>19</number><value>11.94</value></dataset_item>
+          <dataset_item><number>20</number><value>12.66</value></dataset_item>
+          <dataset_item><number>21</number><value>12.41</value></dataset_item>
+          <dataset_item><number>22</number><value>12.21</value></dataset_item>
+          <dataset_item><number>23</number><value>12.58</value></dataset_item>
+          <dataset_item><number>24</number><value>11.87</value></dataset_item>
+          <dataset_item><number>25</number><value>12.29</value></dataset_item>
+          <dataset_item><number>26</number><value>12.47</value></dataset_item>
+          <dataset_item><number>27</number><value>12.58</value></dataset_item>
+          <dataset_item><number>28</number><value>11.76</value></dataset_item>
+          <dataset_item><number>29</number><value>12.14</value></dataset_item>
+          <dataset_item><number>30</number><value>11.74</value></dataset_item>
+        </dataset_items>
+        <number_of_items>30</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type="calculated">
+    <name><text>C09 Càlcul invers de FI (banda baixa)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>El mesurador de camp mostra un transponedor a una FI de <b>{fi} MHz</b>. L'LNB treballa a la banda baixa (OL = 9,75 GHz). Quina és la freqüència del senyal del satèl·lit <b>en GHz</b>? (Fes servir 3 decimals.)</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>f(senyal) = FI + f(OL) = {fi}/1000 + 9,75 = <b>{=round(9.75+{fi}/1000,3)} GHz</b>.</p>]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html"><text></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text></text></incorrectfeedback>
+    <answer fraction="100">
+      <text>9.75+{fi}/1000</text>
+      <tolerance>0.005</tolerance>
+      <tolerancetype>2</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>3</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>fi</text></name>
+        <type>calculated</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>950</text></minimum>
+        <maximum><text>1950</text></maximum>
+        <decimals><text>0</text></decimals>
+        <itemcount>30</itemcount>
+        <dataset_items>
+          <dataset_item><number>1</number><value>1509</value></dataset_item>
+          <dataset_item><number>2</number><value>1751</value></dataset_item>
+          <dataset_item><number>3</number><value>1886</value></dataset_item>
+          <dataset_item><number>4</number><value>1223</value></dataset_item>
+          <dataset_item><number>5</number><value>1541</value></dataset_item>
+          <dataset_item><number>6</number><value>1251</value></dataset_item>
+          <dataset_item><number>7</number><value>1322</value></dataset_item>
+          <dataset_item><number>8</number><value>1420</value></dataset_item>
+          <dataset_item><number>9</number><value>1946</value></dataset_item>
+          <dataset_item><number>10</number><value>1177</value></dataset_item>
+          <dataset_item><number>11</number><value>1481</value></dataset_item>
+          <dataset_item><number>12</number><value>1199</value></dataset_item>
+          <dataset_item><number>13</number><value>1300</value></dataset_item>
+          <dataset_item><number>14</number><value>1645</value></dataset_item>
+          <dataset_item><number>15</number><value>1657</value></dataset_item>
+          <dataset_item><number>16</number><value>1323</value></dataset_item>
+          <dataset_item><number>17</number><value>1058</value></dataset_item>
+          <dataset_item><number>18</number><value>1618</value></dataset_item>
+          <dataset_item><number>19</number><value>1674</value></dataset_item>
+          <dataset_item><number>20</number><value>1702</value></dataset_item>
+          <dataset_item><number>21</number><value>1789</value></dataset_item>
+          <dataset_item><number>22</number><value>1025</value></dataset_item>
+          <dataset_item><number>23</number><value>1676</value></dataset_item>
+          <dataset_item><number>24</number><value>1109</value></dataset_item>
+          <dataset_item><number>25</number><value>1368</value></dataset_item>
+          <dataset_item><number>26</number><value>1656</value></dataset_item>
+          <dataset_item><number>27</number><value>1799</value></dataset_item>
+          <dataset_item><number>28</number><value>1729</value></dataset_item>
+          <dataset_item><number>29</number><value>1039</value></dataset_item>
+          <dataset_item><number>30</number><value>1933</value></dataset_item>
+        </dataset_items>
+        <number_of_items>30</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type="calculated">
+    <name><text>C10 Càlcul invers de FI (banda alta)</text></name>
+    <questiontext format="html"><text><![CDATA[<p>El mesurador de camp mostra un transponedor a una FI de <b>{fi} MHz</b>. L'LNB treballa a la banda alta (OL = 10,6 GHz). Quina és la freqüència del senyal del satèl·lit <b>en GHz</b>? (Fes servir 3 decimals.)</p>]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[<p>f(senyal) = FI + f(OL) = {fi}/1000 + 10,6 = <b>{=round(10.6+{fi}/1000,3)} GHz</b>.</p>]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>0</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>0</shuffleanswers>
+    <correctfeedback format="html"><text></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text></text></incorrectfeedback>
+    <answer fraction="100">
+      <text>10.6+{fi}/1000</text>
+      <tolerance>0.005</tolerance>
+      <tolerancetype>2</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>3</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <unitgradingtype>0</unitgradingtype>
+    <unitpenalty>0.1000000</unitpenalty>
+    <showunits>3</showunits>
+    <unitsleft>0</unitsleft>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>fi</text></name>
+        <type>calculated</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>1100</text></minimum>
+        <maximum><text>2150</text></maximum>
+        <decimals><text>0</text></decimals>
+        <itemcount>30</itemcount>
+        <dataset_items>
+          <dataset_item><number>1</number><value>1189</value></dataset_item>
+          <dataset_item><number>2</number><value>1345</value></dataset_item>
+          <dataset_item><number>3</number><value>1945</value></dataset_item>
+          <dataset_item><number>4</number><value>1143</value></dataset_item>
+          <dataset_item><number>5</number><value>1502</value></dataset_item>
+          <dataset_item><number>6</number><value>1640</value></dataset_item>
+          <dataset_item><number>7</number><value>1792</value></dataset_item>
+          <dataset_item><number>8</number><value>1756</value></dataset_item>
+          <dataset_item><number>9</number><value>1710</value></dataset_item>
+          <dataset_item><number>10</number><value>2127</value></dataset_item>
+          <dataset_item><number>11</number><value>1942</value></dataset_item>
+          <dataset_item><number>12</number><value>1681</value></dataset_item>
+          <dataset_item><number>13</number><value>1720</value></dataset_item>
+          <dataset_item><number>14</number><value>1427</value></dataset_item>
+          <dataset_item><number>15</number><value>1189</value></dataset_item>
+          <dataset_item><number>16</number><value>1123</value></dataset_item>
+          <dataset_item><number>17</number><value>1611</value></dataset_item>
+          <dataset_item><number>18</number><value>2029</value></dataset_item>
+          <dataset_item><number>19</number><value>1785</value></dataset_item>
+          <dataset_item><number>20</number><value>1309</value></dataset_item>
+          <dataset_item><number>21</number><value>1669</value></dataset_item>
+          <dataset_item><number>22</number><value>1698</value></dataset_item>
+          <dataset_item><number>23</number><value>1958</value></dataset_item>
+          <dataset_item><number>24</number><value>1896</value></dataset_item>
+          <dataset_item><number>25</number><value>2075</value></dataset_item>
+          <dataset_item><number>26</number><value>1641</value></dataset_item>
+          <dataset_item><number>27</number><value>1731</value></dataset_item>
+          <dataset_item><number>28</number><value>2065</value></dataset_item>
+          <dataset_item><number>29</number><value>1642</value></dataset_item>
+          <dataset_item><number>30</number><value>1217</value></dataset_item>
+        </dataset_items>
+        <number_of_items>30</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+</quiz>

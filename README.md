@@ -20,4 +20,4 @@ Web: https://ddelapaz1.github.io/questionaris_ict/
 
 4. Copia la carpeta `t1-1-normativa/` amb el nom `<id>/`, canvia-hi el títol i el `data/<id>.js`, i afegeix-ne l'enllaç a `index.html`.
 
-Tipus de pregunta suportats: opció múltiple (resposta única), aparellament i arrossegar sobre imatge (`ddimageortext`, que es converteix en un aparellament amb les caselles numerades sobre la imatge). Les imatges de l'enunciat es desen a `img/<id>/`.
+Tipus de pregunta suportats: opció múltiple (resposta única), aparellament, arrossegar sobre imatge (`ddimageortext`, que es converteix en un aparellament amb les caselles numerades sobre la imatge) i calculades (`calculated`: el web genera valors nous dins dels rangs del conjunt de dades a cada intent i fa servir la retroacció general de Moodle com a resolució; a les explicacions, posa-hi `null`). Les imatges de l'enunciat es desen a `img/<id>/`.

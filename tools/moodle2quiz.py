@@ -5,11 +5,13 @@
   python3 tools/moodle2quiz.py moodle/preguntes.xml data/id.js \
       --id t1-1 --title "Títol" [--explicacions moodle/preguntes.explicacions.json]
 
-Tipus suportats: multichoice (resposta única), matching i ddimageortext (es converteix
-en un aparellament sobre la imatge, amb les caselles numerades).
+Tipus suportats: multichoice (resposta única), matching, ddimageortext (es converteix
+en un aparellament sobre la imatge, amb les caselles numerades) i calculated (valors
+aleatoris dins dels rangs del conjunt de dades; la retroacció general fa de resolució).
 Les explicacions són una llista JSON amb un element per pregunta, en el mateix ordre que l'XML:
 un text, o bé {"explicacio": "...", "opcions": [null, "per què no...", ...]} amb una
-justificació per a cada opció en l'ordre de l'XML (null per a la correcta).
+justificació per a cada opció en l'ordre de l'XML (null per a la correcta), o null per
+mantenir la retroacció general de Moodle.
 Si no se'n dona cap, s'aprofita la retroacció general de Moodle (si n'hi ha).
 Les imatges de les preguntes es desen a img/<id>/.
 """
@@ -98,6 +100,21 @@ def parse(path, quiz_id):
                              for s in subs if clean(s.findtext("text"))]
             item["distractors"] = [clean(s.findtext("answer/text"))
                                    for s in subs if not clean(s.findtext("text"))]
+        elif kind == "calculated":
+            # l'enunciat i l'explicació porten {var} i {=fórmula}; el web genera valors nous a cada intent
+            a = q.find("answer")
+            item["formula"] = a.findtext("text").strip()
+            item["tolerance"] = float(a.findtext("tolerance"))
+            item["relative"] = a.findtext("tolerancetype") == "1"
+            item["decimals"] = int(a.findtext("correctanswerlength") or 2)
+            item["vars"] = [{
+                "name": d.findtext("name/text"),
+                "min": float(d.findtext("minimum/text")),
+                "max": float(d.findtext("maximum/text")),
+                "decimals": int(d.findtext("decimals/text")),
+            } for d in q.findall("dataset_definitions/dataset_definition")]
+            unit = re.search(r"\ben (GHz|MHz|kHz|Hz|dBi|dBd|dB|cm|m)\b", item["text"])
+            item["unit"] = unit.group(1) if unit else ""
         else:
             raise SystemExit(f"Tipus de pregunta no suportat: {kind}")
         questions.append(item)
@@ -125,7 +142,7 @@ def main():
                 if len(e["opcions"]) != len(q["options"]) or e["opcions"][q["correct"]] is not None:
                     raise SystemExit(f"Justificacions d'opcions mal alineades: {q['text']}")
                 q["optionFeedback"] = e["opcions"]
-            else:
+            elif e is not None:  # null: es manté la retroacció general de Moodle
                 q["explanation"] = e
 
     quiz = {"id": args.id, "title": args.title, "questions": questions}

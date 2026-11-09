@@ -38,6 +38,39 @@
 
   const fmt = (n, d = 2) => (Math.round(n * 10 ** d) / 10 ** d).toLocaleString("ca", { maximumFractionDigits: d });
   const signed = (n) => (n > 0 ? "+" : n < 0 ? "−" : "") + fmt(Math.abs(n));
+  const fixed = (n, d) => n.toLocaleString("ca", { minimumFractionDigits: d, maximumFractionDigits: d, useGrouping: false });
+
+  // ---------- preguntes calculades (fórmules de Moodle) ----------
+
+  const roundTo = (x, d = 0) => Math.round(x * 10 ** d) / 10 ** d;
+
+  function evalFormula(expr, values) {
+    const js = expr
+      .replace(/\{(\w+)\}/g, (_, n) => `(${values[n]})`)
+      .replace(/\bpi\(\)/g, "Math.PI")
+      .replace(/\b(log10|sqrt|pow|abs|exp|sin|cos|tan|floor|ceil)\(/g, "Math.$1(")
+      .replace(/\bround\(/g, "R(");
+    return Function("R", `"use strict"; return (${js});`)(roundTo);
+  }
+
+  // substitueix {=fórmula} pel resultat i {var} pel valor generat
+  function fillTemplate(text, q, values) {
+    return text
+      .replace(/\{=((?:[^{}]|\{\w+\})*)\}/g, (_, f) =>
+        evalFormula(f, values).toLocaleString("ca", { maximumFractionDigits: 4, useGrouping: false }))
+      .replace(/\{(\w+)\}/g, (m, n) => {
+        const v = q.vars.find((x) => x.name === n);
+        return v ? fixed(values[n], v.decimals) : m;
+      });
+  }
+
+  function randomValues(q) {
+    const values = {};
+    for (const v of q.vars) values[v.name] = roundTo(v.min + Math.random() * (v.max - v.min), v.decimals);
+    return values;
+  }
+
+  const parseNumber = (s) => parseFloat(String(s).replace(/\s/g, "").replace(",", "."));
 
   // scroll: "top" (pantalla nova), "keep" (mateixa pregunta) o "feedback" (fa visible l'explicació)
   function show(nodes, scroll = "top") {
@@ -58,6 +91,12 @@
       const ok = response === q.correct;
       return { points: ok ? 1 : -(q.penalty || 0), status: ok ? "ok" : "ko" };
     }
+    if (q.type === "calculated") {
+      const value = parseNumber(response);
+      const margin = q.relative ? q.tolerance * Math.abs(item.answer) : q.tolerance;
+      const ok = Math.abs(value - item.answer) <= margin + 1e-9;
+      return { points: ok ? 1 : 0, status: ok ? "ok" : "ko" };
+    }
     const hits = q.pairs.filter((p, i) => response[i] === p[1]).length;
     const points = hits / q.pairs.length;
     return { points, hits, status: hits === q.pairs.length ? "ok" : hits === 0 ? "ko" : "part" };
@@ -69,6 +108,7 @@
     const n = QUIZ.questions.length;
     const penalty = QUIZ.questions.find((q) => q.penalty)?.penalty || 0;
     const hasMatching = QUIZ.questions.some((q) => q.type === "matching");
+    const hasCalc = QUIZ.questions.some((q) => q.type === "calculated");
     show([el("section", { class: "card" },
       el("p", { class: "eyebrow" }, "Qüestionari · ", n, " preguntes"),
       el("h1", {}, QUIZ.title),
@@ -81,6 +121,8 @@
           el("span", {}, el("b", {}, "Resposta incorrecta."), " Com al Moodle, els errors resten: si no ho saps, pensa-hi bé.")) : null,
         hasMatching ? el("li", {}, el("span", { class: "k part" }, "0 – 1"),
           el("span", {}, el("b", {}, "Preguntes d'aparellar."), " Puntuen la part proporcional de parelles correctes.")) : null,
+        hasCalc ? el("li", {}, el("span", { class: "k" }, "0 / 1"),
+          el("span", {}, el("b", {}, "Càlculs."), " Valors nous a cada intent. Compten si el resultat és dins de la tolerància; un error no resta.")) : null,
         el("li", {}, el("span", { class: "k" }, "/ 10"),
           el("span", {}, el("b", {}, "Nota final."), " Punts obtinguts ÷ ", n, " × 10 (mínim 0)."))),
       el("div", { class: "actions" },
@@ -90,13 +132,23 @@
   function start() {
     state = {
       index: 0,
-      items: shuffle(QUIZ.questions).map((q) => ({
-        q,
-        order: q.type === "multichoice" ? shuffle(q.options.map((_, i) => i)) : null,
-        choices: q.type === "matching" ? shuffle(q.pairs.map((p) => p[1]).concat(q.distractors || [])) : null,
-        response: q.type === "matching" ? q.pairs.map(() => null) : null,
-        result: null,
-      })),
+      items: shuffle(QUIZ.questions).map((q) => {
+        const item = {
+          q,
+          text: q.text,
+          order: q.type === "multichoice" ? shuffle(q.options.map((_, i) => i)) : null,
+          choices: q.type === "matching" ? shuffle(q.pairs.map((p) => p[1]).concat(q.distractors || [])) : null,
+          response: q.type === "matching" ? q.pairs.map(() => null) : q.type === "calculated" ? "" : null,
+          result: null,
+        };
+        if (q.type === "calculated") {
+          item.values = randomValues(q);
+          item.answer = evalFormula(q.formula, item.values);
+          item.text = fillTemplate(q.text, q, item.values);
+          item.explanation = fillTemplate(q.explanation || "", q, item.values);
+        }
+        return item;
+      }),
     };
     question();
   }
@@ -135,6 +187,19 @@
           onclick: () => { item.response = optIndex; question("keep"); },
         }, el("span", { class: "letter", "aria-hidden": "true" }, LETTERS[pos]), el("span", {}, q.options[optIndex])));
       }));
+    } else if (q.type === "calculated") {
+      const input = el("input", {
+        id: "calc", type: "text", inputmode: "decimal", autocomplete: "off",
+        class: checked ? (item.result.status === "ok" ? "is-correct" : "is-wrong") : null,
+        disabled: checked, "aria-label": "Resultat" + (q.unit ? " en " + q.unit : ""),
+        "data-autofocus": !checked,
+        oninput: (e) => { item.response = e.target.value; checkBtn.disabled = !ready(item); },
+      });
+      input.value = item.response;
+      const tol = q.relative ? `${fmt(q.tolerance * 100)} %` : `${fmt(q.tolerance, 3)}${q.unit ? " " + q.unit : ""}`;
+      body = el("div", { class: "calc" },
+        el("div", { class: "calc-row" }, input, q.unit ? el("span", { class: "unit" }, q.unit) : null),
+        el("p", { class: "calc-hint" }, "Pots fer servir coma o punt decimal · Tolerància ±", tol));
     } else {
       body = el("div", { class: "match" }, q.pairs.map(([term, answer], i) => {
         const id = `m${i}`;
@@ -159,13 +224,13 @@
     show([
       progressBar(),
       el("section", { class: "card" },
-        el("p", { class: "eyebrow" }, q.markers ? "Relaciona cada casella de la imatge" : q.type === "matching" ? "Relaciona" : "Tria la resposta correcta"),
-        el("h2", {}, q.text),
+        el("p", { class: "eyebrow" }, q.markers ? "Relaciona cada casella de la imatge" : q.type === "matching" ? "Relaciona" : q.type === "calculated" ? "Calcula" : "Tria la resposta correcta"),
+        el("h2", {}, item.text),
         figure(q),
         body,
         checked ? feedback(item) : null,
         el("div", { class: "actions" },
-          el("span", { class: "hint" }, checked ? "Prem Retorn per continuar" : q.type === "multichoice" ? "Tecles a–e per triar · Retorn per comprovar" : ""),
+          el("span", { class: "hint" }, checked ? "Prem Retorn per continuar" : q.type === "multichoice" ? "Tecles a–e per triar · Retorn per comprovar" : q.type === "calculated" ? "Retorn per comprovar" : ""),
           checked ? nextBtn : checkBtn))], scroll);
   }
 
@@ -180,6 +245,7 @@
   }
 
   function ready(item) {
+    if (item.q.type === "calculated") return !Number.isNaN(parseNumber(item.response));
     return item.q.type === "multichoice" ? item.response != null : item.response.every((r) => r);
   }
 
@@ -195,8 +261,15 @@
       q.type === "multichoice" && result.status === "ko"
         ? el("p", { class: "answer" }, "La resposta correcta és: ", el("b", {}, q.options[q.correct]))
         : null,
-      q.explanation ? el("p", { class: "exp" }, q.explanation) : null);
+      q.type === "calculated" && result.status === "ko"
+        ? el("p", { class: "answer" }, "Resultat esperat: ", el("b", {}, expected(item)))
+        : null,
+      q.type === "calculated"
+        ? (item.explanation ? el("p", { class: "exp calc-exp" }, item.explanation) : null)
+        : q.explanation ? el("p", { class: "exp" }, q.explanation) : null);
   }
+
+  const expected = (item) => fixed(item.answer, item.q.decimals) + (item.q.unit ? " " + item.q.unit : "");
 
   // justificació de per què l'opció triada no és la correcta (si n'hi ha)
   function whyNot(q, response, cls) {
@@ -262,6 +335,9 @@
         : [el("p", {}, "La teva resposta: ", el("b", { class: "ko" }, q.options[response])),
            whyNot(q, response, null),
            el("p", {}, "Correcta: ", el("b", { class: "ok" }, q.options[q.correct]))];
+    } else if (q.type === "calculated") {
+      answerInfo = [el("p", {}, "La teva resposta: ", el("b", { class: result.status }, response, q.unit ? " " + q.unit : "")),
+        result.status === "ok" ? null : el("p", {}, "Correcta: ", el("b", { class: "ok" }, expected(item)))];
     } else {
       answerInfo = el("ul", {}, q.pairs.map(([term, answer], j) =>
         el("li", {}, term, " → ", response[j] === answer
@@ -270,11 +346,14 @@
     }
     return el("details", { class: result.status, open: result.status !== "ok" },
       el("summary", {},
-        el("span", { class: "q" }, `${i + 1}. ${q.text}`),
+        el("span", { class: "q" }, `${i + 1}. ${item.text}`),
         el("span", { class: "pts" }, signed(result.points))),
       el("div", { class: "body" },
         q.image ? el("img", { class: "thumb", src: q.image, alt: "" }) : null,
-        answerInfo, q.explanation ? el("p", {}, q.explanation) : null));
+        answerInfo,
+        q.type === "calculated"
+          ? (item.explanation ? el("p", { class: "calc-exp" }, item.explanation) : null)
+          : q.explanation ? el("p", {}, q.explanation) : null));
   }
 
   // ---------- teclat ----------
