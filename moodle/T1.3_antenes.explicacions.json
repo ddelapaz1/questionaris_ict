@@ -1,0 +1,473 @@
+[
+  {
+    "explicacio": "En recepció capta l'energia de l'ona i la transfereix al cable.",
+    "opcions": [
+      null,
+      "Una antena passiva no amplifica; el filtratge es fa a la capçalera.",
+      "Aquesta funció no és de l'antena.",
+      "En una ICT les antenes només reben; no generen senyal.",
+      "L'adaptació d'impedàncies la fa el balun, no és la funció de l'antena."
+    ]
+  },
+  {
+    "explicacio": "No han d'enviar cap senyal en sentit ascendent.",
+    "opcions": [
+      null,
+      "No emeten cap senyal.",
+      "Al contrari: només reben.",
+      "No hi ha cap senyal en sentit ascendent.",
+      "Les antenes d'una ICT només donen servei al propi edifici."
+    ]
+  },
+  {
+    "explicacio": "L'antena està optimitzada per a una banda concreta.",
+    "opcions": [
+      null,
+      "Fora de la seva banda el rendiment disminueix.",
+      "El que empitjora és el rendiment.",
+      "El diagrama no es transforma així.",
+      "No; el que empitjora és el rendiment global."
+    ]
+  },
+  {
+    "explicacio": "S'expressa en dBi o en dBd.",
+    "opcions": [
+      null,
+      "Una antena passiva no afegeix energia.",
+      "No té relació amb el guany.",
+      "Això són pèrdues de la xarxa.",
+      "Això és la relació davant/darrere (F/B)."
+    ]
+  },
+  {
+    "explicacio": "L'antena no afegeix energia.",
+    "opcions": [
+      null,
+      "Una antena passiva no amplifica.",
+      "El balun adapta impedàncies; no afegeix energia.",
+      "Això seria una antena activa.",
+      "El guany no es compara amb el cable."
+    ]
+  },
+  {
+    "explicacio": "El dipol λ/2 té 2,15 dB de guany respecte de l'antena isòtropa.",
+    "opcions": [
+      null,
+      "Al revés: el valor en dBi sempre és més gran.",
+      "Els decibels se sumen, no es multipliquen.",
+      "La diferència és de 2,15 dB i el valor en dBi és més gran.",
+      "Tenen antenes de referència diferents."
+    ]
+  },
+  {
+    "explicacio": "Rep molt bé en una direcció i molt menys en les altres.",
+    "opcions": [
+      null,
+      "Això descriu una antena omnidireccional.",
+      "Com més directiva, més guany en la direcció principal.",
+      "Com més directiva, més precisa ha de ser l'orientació.",
+      "Una antena directiva té una obertura estreta."
+    ]
+  },
+  {
+    "explicacio": "Cal trobar un equilibri entre guany i amplada del feix.",
+    "opcions": [
+      null,
+      "El diagrama es fa més estret.",
+      "El guany augmenta en la direcció principal.",
+      "Al contrari: afavoreix una direcció.",
+      "Una antena passiva no consumeix energia."
+    ]
+  },
+  {
+    "explicacio": "Un angle petit dona més selectivitat.",
+    "opcions": [
+      null,
+      "Això seria l'elevació.",
+      "No és un paràmetre de radiació.",
+      "És una característica de l'antena.",
+      "Per canviar de polarització es gira 90°, però no és l'obertura."
+    ]
+  },
+  {
+    "explicacio": "Un angle petit dona més selectivitat.",
+    "opcions": [
+      null,
+      "Això passa amb una obertura àmplia.",
+      "Normalment una obertura petita va associada a més guany.",
+      "La polarització s'ha d'ajustar sempre.",
+      "L'obertura no determina l'amplada de banda."
+    ]
+  },
+  {
+    "explicacio": "Rebutja millor els ecos i les interferències posteriors.",
+    "opcions": [
+      null,
+      "La F/B compara davant i darrere, no freqüències.",
+      "Això seria una F/B propera a 0 dB.",
+      "Una antena omnidireccional té una F/B baixa.",
+      "La F/B no té relació amb la impedància."
+    ]
+  },
+  {
+    "explicacio": "L'antena s'ha de col·locar d'acord amb la polarització (H o V).",
+    "opcions": [
+      null,
+      "No.",
+      "Afecta tots els serveis.",
+      "La desadaptació de polarització sempre provoca pèrdues.",
+      "La polarització no modifica la freqüència."
+    ]
+  },
+  {
+    "explicacio": "Així s'eviten desadaptacions i ones estacionàries.",
+    "opcions": [
+      null,
+      "És habitual en altres sistemes, no en els coaxials de les ICT.",
+      "És la impedància aproximada del dipol plegat, que s'adapta amb un balun.",
+      "No.",
+      "No."
+    ]
+  },
+  {
+    "explicacio": "En les ICT, però, l'amplificació es fa habitualment a la capçalera.",
+    "opcions": [
+      null,
+      "Continuaria sent una antena passiva.",
+      "No és el significat d'antena activa.",
+      "Totes les antenes i màstils s'han de connectar a terra.",
+      "No és el significat d'antena activa."
+    ]
+  },
+  "El guany i l'angle d'obertura descriuen com l'antena concentra la recepció; la relació F/B compara el que capta per davant i per darrere; la impedància ha de coincidir amb els 75 Ω del coaxial, i la polarització (H o V), amb la del senyal.",
+  "La FM és a la banda II de VHF; la DAB/DAB+, a la banda III de VHF; la TDT, a les bandes IV i V d'UHF (fins al canal 48 des del segon dividend digital), i la TV per satèl·lit, a la banda Ku.",
+  {
+    "explicacio": "La banda de 694 a 790 MHz es va assignar al 5G.",
+    "opcions": [
+      null,
+      "Era el límit abans del segon dividend digital.",
+      "Era el límit abans del primer dividend digital.",
+      "El canal 21 és el primer de la banda, no l'últim.",
+      "No."
+    ]
+  },
+  {
+    "explicacio": "Aquesta banda es va assignar a la telefonia mòbil.",
+    "opcions": [
+      null,
+      "El filtre rebutja els senyals mòbils.",
+      "Un filtre no augmenta el guany.",
+      "No és la funció del filtre.",
+      "Això ho fa el balun."
+    ]
+  },
+  {
+    "explicacio": "El reflector i els directors són elements passius.",
+    "opcions": [
+      null,
+      "És un element passiu.",
+      "Els directors són elements passius.",
+      "És el suport mecànic dels elements.",
+      "Els directors són elements passius."
+    ]
+  },
+  {
+    "explicacio": "Funciona per l'acoblament amb el dipol.",
+    "opcions": [
+      null,
+      "Això descriu un director.",
+      "L'element connectat és el dipol.",
+      "La seva funció principal és reduir la captació posterior.",
+      "Això és el boom."
+    ]
+  },
+  {
+    "explicacio": "Els corrents induïts tornen a radiar i reforcen el senyal frontal.",
+    "opcions": [
+      null,
+      "Això descriu el reflector.",
+      "Els directors són elements passius.",
+      "Sí que hi influeixen, per acoblament.",
+      "Això ho fa el balun."
+    ]
+  },
+  {
+    "explicacio": "A més, l'antena és més llarga.",
+    "opcions": [
+      null,
+      "L'amplada de banda es redueix.",
+      "El guany augmenta amb la directivitat.",
+      "Al contrari: és més directiva.",
+      "El diagrama es fa més estret."
+    ]
+  },
+  {
+    "explicacio": "El reflector queda a la part posterior.",
+    "opcions": [
+      null,
+      "El reflector va a la part posterior.",
+      "L'eix de l'antena apunta cap a l'emissor.",
+      "És una antena directiva.",
+      "La Yagi capta senyals terrestres."
+    ]
+  },
+  {
+    "explicacio": "Els elements han de quedar verticals.",
+    "opcions": [
+      null,
+      "Els directors no canvien la polarització.",
+      "Això empitjoraria la recepció.",
+      "La impedància no té relació amb la polarització.",
+      "El filtre no canvia la polarització."
+    ]
+  },
+  {
+    "explicacio": "És un adaptador d'impedàncies.",
+    "opcions": [
+      null,
+      "L'amplificador no fa l'adaptació d'impedàncies.",
+      "La longitud del cable no adapta la impedància.",
+      "El filtre rebutja freqüències, però no adapta impedàncies.",
+      "El reflector no fa l'adaptació d'impedàncies."
+    ]
+  },
+  {
+    "explicacio": "La zona activa es desplaça al llarg de l'antena.",
+    "opcions": [
+      null,
+      "El llarg treballa a les freqüències baixes.",
+      "El curt treballa a les freqüències altes.",
+      "Treballa principalment el grup de dipols ressonants.",
+      "Tots els dipols estan connectats a la línia."
+    ]
+  },
+  {
+    "explicacio": "Pot cobrir tota la UHF, o VHF i UHF alhora.",
+    "opcions": [
+      null,
+      "Té menys guany que una Yagi optimitzada.",
+      "És una antena directiva.",
+      "Totes les antenes s'han de connectar a terra.",
+      "Té una directivitat mitjana."
+    ]
+  },
+  {
+    "explicacio": "És l'alimentació transposada o creuada.",
+    "opcions": [
+      null,
+      "No s'ha d'interpretar com una Yagi.",
+      "Tots els dipols estan connectats.",
+      "Tots comparteixen la línia d'alimentació.",
+      "Tots els dipols estan connectats a la línia."
+    ]
+  },
+  {
+    "explicacio": "Gràcies a la pantalla reflectora.",
+    "opcions": [
+      null,
+      "Això correspon al dipol circular.",
+      "Això correspon a la parabòlica.",
+      "Això correspon a la logoperiòdica.",
+      "Té una agrupació de dipols davant d'una pantalla reflectora."
+    ]
+  },
+  {
+    "explicacio": "Capta emissores de diferents direccions sense orientar-lo.",
+    "opcions": [
+      null,
+      "Té poc guany; si cal guany, s'usa una Yagi FM.",
+      "La FM és a la banda II.",
+      "No és el motiu.",
+      "Una antena omnidireccional té una F/B baixa."
+    ]
+  },
+  {
+    "explicacio": "Rep millor perpendicularment als braços.",
+    "opcions": [
+      null,
+      "Té mínims en la direcció dels braços.",
+      "Això correspon a la parabòlica.",
+      "En la direcció dels braços hi ha un mínim.",
+      "Rep per les dues cares."
+    ]
+  },
+  {
+    "explicacio": "Per això l'antena s'instal·la amb els elements verticals.",
+    "opcions": [
+      null,
+      "És majoritàriament vertical.",
+      "No.",
+      "La polarització mixta pot aparèixer en FM.",
+      "No."
+    ]
+  },
+  {
+    "explicacio": "El guany i la selectivitat són prioritaris.",
+    "opcions": [
+      null,
+      "És més adequada amb senyal fort o diverses direccions properes.",
+      "És una antena per a FM.",
+      "Té menys guany que una Yagi optimitzada per a la banda.",
+      "No és una antena per a la TDT."
+    ]
+  },
+  {
+    "explicacio": "Té una obertura àmplia i una bona relació F/B.",
+    "opcions": [
+      null,
+      "La seva obertura estreta obligaria a triar un sol repetidor.",
+      "És per a la recepció per satèl·lit.",
+      "No és una antena per a la TDT.",
+      "És una antena per a FM."
+    ]
+  },
+  {
+    "explicacio": "Té una amplada de banda molt àmplia.",
+    "opcions": [
+      null,
+      "Només cobreix la UHF.",
+      "És una antena per a FM.",
+      "És per a la recepció per satèl·lit.",
+      "Només cobreix la UHF."
+    ]
+  },
+  "La Yagi destaca pel guany i la selectivitat; la logoperiòdica, per l'amplada de banda; el panell, per la relació F/B i l'obertura àmplia; el dipol circular rep de totes les direccions, i la parabòlica té el guany més elevat (30 – 40 dBi).",
+  {
+    "explicacio": "Per això ocupen una posició aparentment fixa en el cel.",
+    "opcions": [
+      null,
+      "És l'altura típica d'una òrbita baixa.",
+      "No.",
+      "És aproximadament la distància a la Lluna.",
+      "És l'altura aproximada dels satèl·lits de GPS."
+    ]
+  },
+  {
+    "explicacio": "Són els més habituals des de la península.",
+    "opcions": [
+      null,
+      "Les posicions estan intercanviades.",
+      "Hispasat és a l'oest i Astra a l'est.",
+      "No són les posicions d'aquests satèl·lits.",
+      "No són les posicions d'aquests satèl·lits."
+    ]
+  },
+  "El reflector concentra les ones al focus, on l'alimentador (botzina) capta l'energia. L'LNB l'amplifica amb poc soroll i la converteix a FI (950 – 2150 MHz). En els equips domèstics, alimentador i LNB formen una sola unitat: l'LNBF.",
+  {
+    "explicacio": "A la FI el senyal es pot transportar pel coaxial.",
+    "opcions": [
+      null,
+      "No és el motiu.",
+      "La polarització se selecciona amb la tensió.",
+      "El guany del reflector no depèn de la FI.",
+      "No és el motiu."
+    ]
+  },
+  {
+    "explicacio": "13 V → vertical; 18 V → horitzontal.",
+    "opcions": [
+      null,
+      "La vertical se selecciona amb 13 V.",
+      "La banda se selecciona amb el to de 22 kHz.",
+      "La banda se selecciona amb el to de 22 kHz.",
+      "L'LNB universal treballa amb polarització H i V."
+    ]
+  },
+  {
+    "explicacio": "Sense to → banda baixa (OL de 9,75 GHz).",
+    "opcions": [
+      null,
+      "La banda baixa és sense to.",
+      "La polarització se selecciona amb la tensió.",
+      "La polarització se selecciona amb la tensió.",
+      "La tensió i el to són senyals independents."
+    ]
+  },
+  {
+    "explicacio": "Té 4 sortides fixes (VL, VH, HL, HH).",
+    "opcions": [
+      null,
+      "Només té una sortida per a un receptor.",
+      "Té 2 sortides independents per a 2 receptors.",
+      "Té 8 sortides independents per a receptors, no sortides fixes.",
+      "Té 4 sortides independents per a receptors, no sortides fixes per banda i polarització."
+    ]
+  },
+  "El single i el twin donen sortides independents per a receptors; el Quattro té quatre sortides fixes (VL, VH, HL, HH) per als multicommutadors de les ICT, i l'SCR/dCSS dona servei a diversos receptors per un sol cable.",
+  {
+    "explicacio": "El reflector és un tall lateral del paraboloide.",
+    "opcions": [
+      null,
+      "Això correspon a la parabòlica de focus primari.",
+      "Això correspon a les Cassegrain i Gregorianes.",
+      "És una característica del disseny offset.",
+      "L'elevació és l'angle sobre l'horitzó."
+    ]
+  },
+  {
+    "explicacio": "L'LNB està davant del reflector.",
+    "opcions": [
+      null,
+      "Això correspon a l'offset.",
+      "Això correspon a les Cassegrain i Gregorianes.",
+      "La més habitual és l'offset.",
+      "Això correspon a l'antena tòrica."
+    ]
+  },
+  {
+    "explicacio": "L'ajust fi es fa amb el mesurador de camp.",
+    "opcions": [
+      null,
+      "La FI no és un paràmetre d'orientació.",
+      "No són paràmetres d'orientació.",
+      "Cal també l'elevació i la polarització.",
+      "L'offset i el diàmetre són característiques de l'antena."
+    ]
+  },
+  {
+    "explicacio": "Es complementa amb l'elevació i la polarització.",
+    "opcions": [
+      null,
+      "Això és l'elevació.",
+      "Això és la polarització (skew).",
+      "No.",
+      "No."
+    ]
+  },
+  {
+    "explicacio": "No n'hi ha prou amb el màxim nivell.",
+    "opcions": [
+      null,
+      "El nivell sol no garanteix una bona recepció.",
+      "No té relació amb l'orientació.",
+      "No és el criteri d'ajust.",
+      "La FI depèn del senyal i de l'OL, no de l'orientació."
+    ]
+  },
+  {
+    "explicacio": "El guany augmenta amb el diàmetre.",
+    "opcions": [
+      null,
+      "El feix es fa més estret.",
+      "El guany augmenta.",
+      "El guany augmenta amb el diàmetre.",
+      "La FI no depèn del diàmetre."
+    ]
+  },
+  {
+    "explicacio": "El multifocus porta diversos LNB; la tòrica té diversos focus.",
+    "opcions": [
+      null,
+      "El Quattro dona les 4 combinacions d'un sol satèl·lit.",
+      "El skew alinea la polarització, no canvia de satèl·lit.",
+      "La tensió selecciona la polarització.",
+      "El to selecciona la banda."
+    ]
+  },
+  null,
+  null,
+  null,
+  null,
+  null,
+  null
+]
